@@ -118,10 +118,12 @@ def fetch_leads_for_form(form_id, page_token):
     return leads, q_order
 
 
-def fetch_campaign_insights():
-    today       = datetime.now(IST).strftime("%Y-%m-%d")
-    month_start = datetime.now(IST).strftime("%Y-%m-01")
-    month_label = datetime.now(IST).strftime("%b %Y")
+def fetch_campaign_insights_monthly():
+    """Returns dict: campaign -> {YYYY-MM -> {spend, impressions, meta_leads, cpl}}
+    Covers last 12 months. One API call per campaign using time_increment=monthly."""
+    today    = datetime.now(IST)
+    since    = (today.replace(day=1) - timedelta(days=335)).strftime("%Y-%m-%d")
+    until    = today.strftime("%Y-%m-%d")
 
     url    = f"https://graph.facebook.com/v21.0/act_{AD_ACCOUNT_ID}/campaigns"
     params = {"access_token": META_TOKEN, "fields": "id,name,effective_status", "limit": 100}
@@ -129,34 +131,45 @@ def fetch_campaign_insights():
     while url:
         resp = requests.get(url, params=params).json()
         if "error" in resp:
-            return {}, month_label
+            return {}
         campaigns.extend(resp.get("data", []))
         url, params = resp.get("paging", {}).get("next"), {}
 
-    by_treatment = {}
+    monthly = {}  # campaign -> {YYYY-MM -> {spend, impressions, meta_leads}}
+
     for c in campaigns:
-        if c.get("effective_status") not in ("ACTIVE", "PAUSED"):
+        campaign = infer_campaign(c["name"])
+        if not campaign:
             continue
-        treatment = infer_campaign(c["name"])
-        if not treatment:
-            continue
-        resp = requests.get(f"https://graph.facebook.com/v21.0/{c['id']}/insights",
-            params={"access_token": META_TOKEN,
-                    "time_range": json.dumps({"since": month_start, "until": today}),
-                    "fields": "spend,impressions,actions,cost_per_action_type", "limit": 10}).json()
+        resp = requests.get(
+            f"https://graph.facebook.com/v21.0/{c['id']}/insights",
+            params={
+                "access_token":   META_TOKEN,
+                "time_range":     json.dumps({"since": since, "until": until}),
+                "time_increment": "monthly",
+                "fields":         "spend,impressions,actions,date_start",
+                "limit":          50,
+            }
+        ).json()
         for row in resp.get("data", []):
+            spend = float(row.get("spend", 0))
+            if spend == 0:
+                continue
+            month_key  = row["date_start"][:7]  # YYYY-MM
             actions    = row.get("actions", [])
             meta_leads = next((int(a["value"]) for a in actions if a["action_type"] == "lead"), 0)
-            t = by_treatment.setdefault(treatment, {"spend": 0.0, "impressions": 0, "meta_leads": 0})
-            t["spend"]       += float(row.get("spend", 0))
-            t["impressions"] += int(row.get("impressions", 0))
-            t["meta_leads"]  += meta_leads
+            m = monthly.setdefault(campaign, {}).setdefault(month_key, {"spend": 0.0, "impressions": 0, "meta_leads": 0})
+            m["spend"]       += spend
+            m["impressions"] += int(row.get("impressions", 0))
+            m["meta_leads"]  += meta_leads
 
-    for d in by_treatment.values():
-        d["cpl"]   = round(d["spend"] / d["meta_leads"], 0) if d["meta_leads"] > 0 else 0
-        d["spend"] = round(d["spend"], 0)
+    # Compute CPL per cell
+    for camp in monthly.values():
+        for m in camp.values():
+            m["cpl"]   = round(m["spend"] / m["meta_leads"], 0) if m["meta_leads"] > 0 else 0
+            m["spend"] = round(m["spend"], 0)
 
-    return by_treatment, month_label
+    return monthly
 
 
 def load_historical():
@@ -189,8 +202,10 @@ def fetch_all_data():
     return all_leads
 
 
-def generate(all_leads, insights, month_label):
-    now_str = datetime.now(IST).strftime("%d %b %Y, %I:%M %p IST")
+def generate(all_leads, insights):
+    now_str   = datetime.now(IST).strftime("%d %b %Y, %I:%M %p IST")
+    cur_month = datetime.now(IST).strftime("%Y-%m")
+    today_str = datetime.now(IST).strftime("%Y-%m-%d")
 
     for lead in all_leads:
         p = str(lead.get("Phone", ""))
@@ -198,29 +213,25 @@ def generate(all_leads, insights, month_label):
             lead["Phone"] = "+" + p
 
     all_leads.sort(key=lambda l: l.get("date_ts", ""), reverse=True)
-    treatments = [t for t in CAMPAIGN_ORDER if any(l.get("_treatment") == t for l in all_leads)]
 
-    today_cut = datetime.now(IST).strftime("%Y-%m-%d")
-    week_cut  = (datetime.now(IST) - timedelta(days=7)).strftime("%Y-%m-%d")
-    today_ct  = sum(1 for l in all_leads if l.get("date_ts", "") >= today_cut)
-    week_ct   = sum(1 for l in all_leads if l.get("date_ts", "") >= week_cut)
-
-    total_spend      = int(sum(d.get("spend", 0) for d in insights.values()))
-    total_meta_leads = sum(d.get("meta_leads", 0) for d in insights.values())
-    overall_cpl      = int(total_spend / total_meta_leads) if total_meta_leads > 0 else 0
+    lead_months    = sorted({l["date_ts"][:7] for l in all_leads if l.get("date_ts")}, reverse=True)
+    insight_months = sorted({m for camp in insights.values() for m in camp}, reverse=True)
+    all_months     = sorted(set(lead_months) | set(insight_months), reverse=True)
 
     dates    = [l["date_ts"] for l in all_leads if l.get("date_ts")]
     min_date = min(dates) if dates else ""
-    max_date = today_cut
+    max_date = today_str
 
-    leads_json      = json.dumps(all_leads, ensure_ascii=False)
-    colors_json     = json.dumps(COLORS)
-    treatments_json = json.dumps(treatments)
-    insights_json   = json.dumps(insights)
+    leads_json          = json.dumps(all_leads, ensure_ascii=False)
+    colors_json         = json.dumps(COLORS)
+    campaign_order_json = json.dumps(CAMPAIGN_ORDER)
+    insights_json       = json.dumps(insights)
+    months_json         = json.dumps(all_months)
 
-    tab_btns = "".join(
-        f'<button class="tab{" active" if i==0 else ""}" onclick="showTab(\'{tx_key(t)}\',this)">{t}</button>'
-        for i, t in enumerate(treatments)
+    month_opts = "".join(
+        f'<option value="{m}"{" selected" if m == cur_month else ""}>'
+        f'{datetime.strptime(m, "%Y-%m").strftime("%b %Y")}</option>'
+        for m in all_months
     )
 
     return f"""<!DOCTYPE html>
@@ -245,10 +256,17 @@ body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgro
 .card-val{{font-size:1.75rem;font-weight:700;color:#0d2137}}
 .card-lbl{{font-size:.68rem;text-transform:uppercase;letter-spacing:.8px;color:#9ca3af;margin-top:2px;font-weight:600}}
 .card-sub{{font-size:.7rem;color:#b0b8c4;margin-top:1px}}
-.toolbar{{background:#fff;border-radius:12px;padding:14px 18px;box-shadow:0 2px 8px rgba(0,0,0,.06);margin-bottom:20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}}
+.toolbar{{background:#fff;border-radius:12px;padding:14px 18px;box-shadow:0 2px 8px rgba(0,0,0,.06);margin-bottom:20px}}
+.trow{{display:flex;flex-wrap:wrap;gap:12px;align-items:center}}
+.trow+.trow{{margin-top:10px;padding-top:10px;border-top:1px solid #f3f4f6}}
 .toolbar label{{font-size:.75rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:.5px}}
+select.month-sel{{padding:7px 11px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:.85rem;color:#1a1a2e;outline:none;background:#fff;cursor:pointer;min-width:130px}}
+select.month-sel:focus{{border-color:#1a5276}}
 input[type=date]{{padding:7px 11px;border:1.5px solid #e5e7eb;border-radius:8px;font-size:.83rem;color:#1a1a2e;outline:none}}
 input[type=date]:focus{{border-color:#1a5276}}
+.toggle-wrap{{display:flex;align-items:center;gap:6px;cursor:pointer}}
+.toggle-wrap input[type=checkbox]{{width:16px;height:16px;cursor:pointer;accent-color:#1a5276}}
+.toggle-label{{font-size:.78rem;color:#6b7280;font-weight:500}}
 .sep{{flex:1}}.rc{{font-size:.78rem;color:#9ca3af;font-weight:500}}
 .btn{{padding:8px 16px;border-radius:8px;font-size:.81rem;font-weight:600;cursor:pointer;border:none;transition:all .15s}}
 .btn-xl{{background:#16a34a;color:#fff}}.btn-xl:hover{{background:#15803d}}
@@ -288,7 +306,7 @@ tr.converted td:first-child{{border-left:3px solid #16a34a}}
 @media(max-width:768px){{
   .cards{{grid-template-columns:repeat(2,1fr)}}
   .metrics,.insight-strip{{gap:12px}}
-  .toolbar{{flex-direction:column;align-items:flex-start}}
+  .trow{{flex-direction:column;align-items:flex-start}}
   .tx-bar{{flex-direction:column;align-items:flex-start}}
 }}
 </style>
@@ -300,60 +318,88 @@ tr.converted td:first-child{{border-left:3px solid #16a34a}}
 </div>
 <div class="wrap">
   <div class="cards">
-    <div class="card c-leads"><div class="card-val">{len(all_leads)}</div><div class="card-lbl">Total Leads</div><div class="card-sub">all time</div></div>
-    <div class="card c-spend"><div class="card-val">₹{total_spend:,}</div><div class="card-lbl">Spend</div><div class="card-sub">{month_label}</div></div>
-    <div class="card c-cpl"><div class="card-val">₹{overall_cpl:,}</div><div class="card-lbl">CPL</div><div class="card-sub">{month_label}</div></div>
-    <div class="card c-week"><div class="card-val">{week_ct}</div><div class="card-lbl">This Week</div><div class="card-sub">last 7 days</div></div>
-    <div class="card c-today"><div class="card-val">{today_ct}</div><div class="card-lbl">Today</div><div class="card-sub">{today_cut}</div></div>
+    <div class="card c-leads">
+      <div class="card-val" id="card-leads">—</div>
+      <div class="card-lbl">Leads</div>
+      <div class="card-sub" id="card-leads-sub">this month</div>
+    </div>
+    <div class="card c-spend">
+      <div class="card-val" id="card-spend">—</div>
+      <div class="card-lbl">Spend</div>
+      <div class="card-sub" id="card-month-label">—</div>
+    </div>
+    <div class="card c-cpl">
+      <div class="card-val" id="card-cpl">—</div>
+      <div class="card-lbl">CPL</div>
+      <div class="card-sub" id="card-cpl-label">—</div>
+    </div>
+    <div class="card c-week">
+      <div class="card-val" id="card-week">—</div>
+      <div class="card-lbl">This Week</div>
+      <div class="card-sub">last 7 days</div>
+    </div>
+    <div class="card c-today">
+      <div class="card-val" id="card-today">—</div>
+      <div class="card-lbl">Today</div>
+      <div class="card-sub">IST</div>
+    </div>
   </div>
   <div class="toolbar">
-    <label>From</label>
-    <input type="date" id="df" value="{min_date}" min="{min_date}" max="{max_date}">
-    <label>To</label>
-    <input type="date" id="dt" value="{max_date}" min="{min_date}" max="{max_date}">
-    <button class="btn btn-reset" onclick="resetDates()">Reset</button>
-    <div class="sep"></div>
-    <span class="rc" id="rc"></span>
-    <button class="btn btn-xl" onclick="dlExcel()">&#8595; Download Excel</button>
+    <div class="trow">
+      <label>Month</label>
+      <select class="month-sel" id="month-sel" onchange="changeMonth(this.value)">
+        {month_opts}
+      </select>
+      <label style="margin-left:8px">or</label>
+      <div class="toggle-wrap">
+        <input type="checkbox" id="custom-range-cb" onchange="toggleCustomRange(this.checked)">
+        <span class="toggle-label">Custom date range</span>
+      </div>
+      <div class="sep"></div>
+      <span class="rc" id="rc"></span>
+      <button class="btn btn-xl" onclick="dlExcel()">&#8595; Download Excel</button>
+    </div>
+    <div class="trow" id="custom-range-row" style="display:none">
+      <label>From</label>
+      <input type="date" id="df" value="{min_date}" min="{min_date}" max="{max_date}">
+      <label>To</label>
+      <input type="date" id="dt" value="{max_date}" min="{min_date}" max="{max_date}">
+      <button class="btn btn-reset" onclick="resetDates()">Reset</button>
+    </div>
   </div>
-  <div class="nav">{tab_btns}</div>
+  <div class="nav" id="nav"></div>
   <div id="panels"></div>
 </div>
-<div class="footer">DYU Clinic × Gautami &nbsp;|&nbsp; Meta Ads only &nbsp;|&nbsp; Auto-refreshed every 3 hours</div>
+<div class="footer">DYU Clinic × Gautami &nbsp;|&nbsp; Meta Ads only &nbsp;|&nbsp; Auto-refreshed every 2 hours</div>
 <script>
-const ALL_LEADS  = {leads_json};
-const COLORS     = {colors_json};
-const TREATMENTS = {treatments_json};
-const INSIGHTS   = {insights_json};
-const META_COLS  = ['_form_name','_treatment','id','date','date_ts'];
-const FIXED_COLS = ['Name','Phone','Email'];
-const SHEET_URL  = '{SHEET_URL}';
-const sheetData  = {{}};
+const ALL_LEADS        = {leads_json};
+const COLORS           = {colors_json};
+const CAMPAIGN_ORDER   = {campaign_order_json};
+const MONTHLY_INSIGHTS = {insights_json};
+const ALL_MONTHS       = {months_json};
+const META_COLS        = ['_form_name','_treatment','id','date','date_ts'];
+const FIXED_COLS       = ['Name','Phone','Email'];
+const SHEET_URL        = '{SHEET_URL}';
+const sheetData        = {{}};
+
+let curMonth      = '{cur_month}';
+let dateRangeMode = false;
+let curTab        = '';
 
 function txKey(t){{return t.toLowerCase().replace(/ /g,'_').replace(/\\//g,'_');}}
-function fmtN(n){{return n==null?'—':'₹'+Math.round(n).toLocaleString('en-IN');}}
-function fmtI(n){{return n?Math.round(n).toLocaleString('en-IN'):'—';}}
+function monthLabel(m){{
+  if(!m)return'';
+  const[y,mo]=m.split('-');
+  return['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][parseInt(mo)-1]+' '+y;
+}}
 
 function getRemark(id){{return(sheetData[id]||{{}}).remarks||'';}}
 function getConv(id){{const v=(sheetData[id]||{{}}).converted;return v===true||v==='true';}}
 function getAmt(id){{return(sheetData[id]||{{}}).service_amount||'';}}
 
-function setRemark(id,v){{
-  if(!sheetData[id])sheetData[id]={{}};
-  sheetData[id].remarks=v;
-  syncToSheet(id);
-}}
-function setConv(id,v){{
-  if(!sheetData[id])sheetData[id]={{}};
-  sheetData[id].converted=v;
-  syncToSheet(id);
-  updateRow(id);
-}}
-function setAmt(id,v){{
-  if(!sheetData[id])sheetData[id]={{}};
-  sheetData[id].service_amount=v;
-  syncToSheet(id);
-}}
+function setRemark(id,v){{if(!sheetData[id])sheetData[id]={{}};sheetData[id].remarks=v;syncToSheet(id);}}
+function setConv(id,v){{if(!sheetData[id])sheetData[id]={{}};sheetData[id].converted=v;syncToSheet(id);updateRow(id);}}
+function setAmt(id,v){{if(!sheetData[id])sheetData[id]={{}};sheetData[id].service_amount=v;syncToSheet(id);}}
 
 let syncTimer={{}};
 function syncToSheet(id){{
@@ -373,40 +419,53 @@ async function loadFromSheet(){{
   try{{
     const r=await fetch(SHEET_URL+'?action=read');
     const rows=await r.json();
-    rows.forEach(r=>{{sheetData[r.lead_id]={{remarks:r.remarks,converted:r.converted,service_amount:r.service_amount}};}} );
+    rows.forEach(row=>{{sheetData[row.lead_id]={{remarks:row.remarks,converted:row.converted,service_amount:row.service_amount}};}} );
   }}catch(e){{console.warn('Sheet sync failed',e);}}
-  applyFilter();
+  render();
 }}
 
-let curTab=TREATMENTS.length?txKey(TREATMENTS[0]):'', filtered=[...ALL_LEADS];
+function getActiveCampaigns(month){{
+  const withSpend=Object.keys(MONTHLY_INSIGHTS).filter(c=>{{
+    const m=(MONTHLY_INSIGHTS[c]||{{}})[month];return m&&m.spend>0;
+  }});
+  const withLeads=[...new Set(ALL_LEADS.filter(l=>(l.date_ts||'').startsWith(month)).map(l=>l._treatment).filter(Boolean))];
+  const union=new Set([...withSpend,...withLeads]);
+  return CAMPAIGN_ORDER.filter(c=>union.has(c));
+}}
 
-function getFiltered(){{
+function getMonthLeads(month){{return ALL_LEADS.filter(l=>(l.date_ts||'').startsWith(month));}}
+
+function getDateRangeLeads(){{
   const f=document.getElementById('df').value,t=document.getElementById('dt').value;
   return ALL_LEADS.filter(l=>{{const d=l.date_ts||'';return(!f||d>=f)&&(!t||d<=t);}});
 }}
 
-function applyFilter(){{
-  filtered=getFiltered();
-  document.getElementById('rc').textContent=filtered.length+' leads';
-  renderPanels();
+function getCurrentLeads(){{return dateRangeMode?getDateRangeLeads():getMonthLeads(curMonth);}}
+
+function changeMonth(m){{curMonth=m;render();}}
+
+function toggleCustomRange(checked){{
+  dateRangeMode=checked;
+  document.getElementById('custom-range-row').style.display=checked?'flex':'none';
+  render();
 }}
 
 function resetDates(){{
   const ds=ALL_LEADS.map(l=>l.date_ts).filter(Boolean).sort();
   document.getElementById('df').value=ds[0]||'';
   document.getElementById('dt').value=ds[ds.length-1]||'';
-  applyFilter();
+  render();
 }}
 
-document.getElementById('df').addEventListener('change',applyFilter);
-document.getElementById('dt').addEventListener('change',applyFilter);
+document.getElementById('df').addEventListener('change',render);
+document.getElementById('dt').addEventListener('change',render);
 
-function showTab(id,el){{
-  curTab=id;
+function showTab(key,el){{
+  curTab=key;
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
   document.querySelectorAll('.panel').forEach(p=>p.classList.remove('visible'));
-  const p=document.getElementById('panel-'+id);
+  const p=document.getElementById('panel-'+key);
   if(p)p.classList.add('visible');
 }}
 
@@ -418,7 +477,7 @@ function extraCols(leads){{
 }}
 
 function buildTable(leads){{
-  if(!leads.length)return'<div class="empty">No leads in this date range.</div>';
+  if(!leads.length)return'<div class="empty">No leads for this period.</div>';
   const extra=extraCols(leads);
   const dataCols=['Name','Phone','Email','Form','Submitted',...extra];
   const header=[...dataCols,'Service Amt (₹)','Remarks','Converted?'].map(c=>`<th>${{c}}</th>`).join('');
@@ -430,7 +489,7 @@ function buildTable(leads){{
       return`<td title="${{(l[c]||'').toString().replace(/"/g,"'")}}">${{l[c]||'—'}}</td>`;
     }}).join('');
     const amtCell=`<td style="width:100px"><input type="number" min="0" style="width:90px;padding:5px 8px;border:1.5px solid #e5e7eb;border-radius:6px;font-size:.8rem;outline:none" value="${{getAmt(l.id)}}" placeholder="₹ 0" oninput="setAmt('${{l.id}}',this.value)" onfocus="this.style.borderColor='#1a5276'" onblur="this.style.borderColor='#e5e7eb'"></td>`;
-    const remarkCell=`<td class="remark-td"><textarea class="remark-input" rows="2" data-id="${{l.id}}" placeholder="Add note…" oninput="setRemark('${{l.id}}',this.value)">${{getRemark(l.id)}}</textarea></td>`;
+    const remarkCell=`<td class="remark-td"><textarea class="remark-input" rows="2" placeholder="Add note…" oninput="setRemark('${{l.id}}',this.value)">${{getRemark(l.id)}}</textarea></td>`;
     const convCell=`<td class="conv-td"><div class="conv-wrap"><input type="checkbox" class="conv-cb" data-id="${{l.id}}" ${{conv?'checked':''}} onchange="toggleConv(this)"><span class="conv-lbl">${{conv?'✓':''}}</span></div></td>`;
     return`<tr class="${{conv?'converted':''}}" id="row-${{l.id}}">${{cells}}${{amtCell}}${{remarkCell}}${{convCell}}</tr>`;
   }}).join('');
@@ -446,76 +505,105 @@ function updateRow(id){{
   if(lbl)lbl.textContent=conv?'✓':'';
 }}
 
-function toggleConv(cb){{
-  const id=cb.dataset.id;
-  setConv(id,cb.checked);
-}}
+function toggleConv(cb){{setConv(cb.dataset.id,cb.checked);}}
 
-function buildInsightStrip(tx){{
-  const d=INSIGHTS[tx];
+function buildInsightStrip(campaign,month){{
+  const d=(MONTHLY_INSIGHTS[campaign]||{{}})[month];
   if(!d)return'';
   return`<div class="insight-strip">
-    <div class="is-item"><div class="is-val">${{fmtN(d.spend)}}</div><div class="is-lbl">Spend</div></div>
+    <div class="is-item"><div class="is-val">₹${{Math.round(d.spend||0).toLocaleString('en-IN')}}</div><div class="is-lbl">Spend</div></div>
     <div class="is-item"><div class="is-val">₹${{d.cpl||'—'}}</div><div class="is-lbl">CPL</div></div>
-    <div class="is-item"><div class="is-val">${{fmtI(d.impressions)}}</div><div class="is-lbl">Impressions</div></div>
+    <div class="is-item"><div class="is-val">${{d.impressions?Math.round(d.impressions).toLocaleString('en-IN'):'—'}}</div><div class="is-lbl">Impressions</div></div>
     <div class="is-item"><div class="is-val">${{d.meta_leads||0}}</div><div class="is-lbl">Meta Leads</div></div>
   </div>`;
 }}
 
-function renderPanels(){{
-  const el=document.getElementById('panels');
-  const wk=new Date(Date.now()-7*864e5).toISOString().slice(0,10);
-  const td=new Date().toISOString().slice(0,10);
+function render(){{
+  const activeCamps=getActiveCampaigns(curMonth);
+  const leads=getCurrentLeads();
+  const today=new Date().toISOString().slice(0,10);
+  const week=new Date(Date.now()-7*864e5).toISOString().slice(0,10);
+
+  // Summary cards
+  let totalSpend=0,totalMetaLeads=0;
+  activeCamps.forEach(c=>{{
+    const m=(MONTHLY_INSIGHTS[c]||{{}})[curMonth]||{{}};
+    totalSpend+=(m.spend||0);totalMetaLeads+=(m.meta_leads||0);
+  }});
+  const overallCPL=totalMetaLeads>0?Math.round(totalSpend/totalMetaLeads):0;
+  const monthLeads=getMonthLeads(curMonth);
+  document.getElementById('card-leads').textContent=monthLeads.length;
+  document.getElementById('card-leads-sub').textContent=monthLabel(curMonth);
+  document.getElementById('card-spend').textContent=totalSpend?'₹'+Math.round(totalSpend).toLocaleString('en-IN'):'—';
+  document.getElementById('card-month-label').textContent=monthLabel(curMonth);
+  document.getElementById('card-cpl').textContent=overallCPL?'₹'+overallCPL.toLocaleString('en-IN'):'—';
+  document.getElementById('card-cpl-label').textContent=monthLabel(curMonth);
+  document.getElementById('card-week').textContent=ALL_LEADS.filter(l=>(l.date_ts||'')>=week).length;
+  document.getElementById('card-today').textContent=ALL_LEADS.filter(l=>(l.date_ts||'')>=today).length;
+
+  // Tabs — preserve active tab if still in this month's campaigns
+  if(!curTab||!activeCamps.map(txKey).includes(curTab)){{
+    curTab=activeCamps.length?txKey(activeCamps[0]):'';
+  }}
+  document.getElementById('nav').innerHTML=activeCamps.map(c=>{{
+    const key=txKey(c);
+    return`<button class="tab ${{curTab===key?'active':''}}" onclick="showTab('${{key}}',this)">${{c}}</button>`;
+  }}).join('');
+
+  // Panels
   let html='';
-  TREATMENTS.forEach(tx=>{{
-    const color=COLORS[tx]||'#1a5276';
-    const key=txKey(tx);
-    const leads=filtered.filter(l=>l._treatment===tx);
-    const conv=leads.filter(l=>getConv(l.id)).length;
+  activeCamps.forEach(c=>{{
+    const key=txKey(c);
+    const color=COLORS[c]||'#1a5276';
+    const campLeads=leads.filter(l=>l._treatment===c);
+    const conv=campLeads.filter(l=>getConv(l.id)).length;
     html+=`<div class="panel ${{curTab===key?'visible':''}}" id="panel-${{key}}">
       <div class="tx-bar" style="background:${{color}}">
-        <div><div class="tx-name">${{tx}}</div><div class="tx-sub">${{leads.length}} leads in range</div></div>
+        <div><div class="tx-name">${{c}}</div><div class="tx-sub">${{campLeads.length}} leads${{dateRangeMode?' in range':' this month'}}</div></div>
         <div class="metrics">
-          <div class="m-item"><div class="m-val">${{leads.length}}</div><div class="m-lbl">Leads</div></div>
-          <div class="m-item"><div class="m-val">${{leads.filter(l=>(l.date_ts||'')>=wk).length}}</div><div class="m-lbl">This Week</div></div>
-          <div class="m-item"><div class="m-val">${{leads.filter(l=>(l.date_ts||'')>=td).length}}</div><div class="m-lbl">Today</div></div>
+          <div class="m-item"><div class="m-val">${{campLeads.length}}</div><div class="m-lbl">Leads</div></div>
+          <div class="m-item"><div class="m-val">${{campLeads.filter(l=>(l.date_ts||'')>=week).length}}</div><div class="m-lbl">This Week</div></div>
+          <div class="m-item"><div class="m-val">${{campLeads.filter(l=>(l.date_ts||'')>=today).length}}</div><div class="m-lbl">Today</div></div>
           <div class="m-item"><div class="m-val" style="color:#4ade80">${{conv}}</div><div class="m-lbl">Converted</div></div>
         </div>
       </div>
-      ${{buildInsightStrip(tx)}}
-      <div class="tbl-card">${{buildTable(leads)}}</div>
+      ${{buildInsightStrip(c,curMonth)}}
+      <div class="tbl-card">${{buildTable(campLeads)}}</div>
     </div>`;
   }});
-  el.innerHTML=html;
-  document.getElementById('rc').textContent=filtered.length+' leads';
+  document.getElementById('panels').innerHTML=html;
+  document.getElementById('rc').textContent=leads.length+' leads';
 }}
 
 function dlExcel(){{
   const wb=XLSX.utils.book_new();
-  TREATMENTS.forEach(tx=>{{
-    const leads=filtered.filter(l=>l._treatment===tx);
-    if(!leads.length)return;
-    const extra=extraCols(leads);
+  const activeCamps=getActiveCampaigns(curMonth);
+  const leads=getCurrentLeads();
+  activeCamps.forEach(c=>{{
+    const campLeads=leads.filter(l=>l._treatment===c);
+    if(!campLeads.length)return;
+    const extra=extraCols(campLeads);
     const cols=['Name','Phone','Email','Form','Submitted',...extra,'Service Amt (₹)','Remarks','Converted'];
-    const rows=leads.map(l=>{{
+    const rows=campLeads.map(l=>{{
       const row={{}};
-      cols.forEach(c=>{{
-        if(c==='Form')           row[c]=l._form_name||'';
-        else if(c==='Submitted') row[c]=l.date||'';
-        else if(c==='Service Amt (₹)') row[c]=getAmt(l.id)||'';
-        else if(c==='Remarks')   row[c]=getRemark(l.id);
-        else if(c==='Converted') row[c]=getConv(l.id)?'Yes':'No';
-        else row[c]=l[c]||'';
+      cols.forEach(col=>{{
+        if(col==='Form')                 row[col]=l._form_name||'';
+        else if(col==='Submitted')       row[col]=l.date||'';
+        else if(col==='Service Amt (₹)') row[col]=getAmt(l.id)||'';
+        else if(col==='Remarks')         row[col]=getRemark(l.id);
+        else if(col==='Converted')       row[col]=getConv(l.id)?'Yes':'No';
+        else row[col]=l[col]||'';
       }});
       return row;
     }});
     const ws=XLSX.utils.json_to_sheet(rows,{{header:cols}});
-    ws['!cols']=cols.map(c=>(({{wch:Math.min(Math.max(c.length+2,12),40)}})));
-    XLSX.utils.book_append_sheet(wb,ws,tx.slice(0,31));
+    ws['!cols']=cols.map(()=>(({{wch:20}})));
+    XLSX.utils.book_append_sheet(wb,ws,c.slice(0,31));
   }});
-  const f=document.getElementById('df').value||'all';
-  const t=document.getElementById('dt').value||'now';
-  XLSX.writeFile(wb,`DYU_Leads_${{f}}_to_${{t}}.xlsx`);
+  const label=dateRangeMode
+    ?`${{document.getElementById('df').value||'all'}}_to_${{document.getElementById('dt').value||'now'}}`
+    :monthLabel(curMonth).replace(' ','_');
+  XLSX.writeFile(wb,`DYU_Leads_${{label}}.xlsx`);
 }}
 
 loadFromSheet();
@@ -530,12 +618,12 @@ if __name__ == "__main__":
         raise SystemExit(1)
 
     print("Fetching campaign insights...", flush=True)
-    insights, month_label = fetch_campaign_insights()
+    insights = fetch_campaign_insights_monthly()
 
     print("Fetching leads...", flush=True)
     all_leads = fetch_all_data()
     print(f"Total leads: {len(all_leads)}", flush=True)
 
-    html = generate(all_leads, insights, month_label)
+    html = generate(all_leads, insights)
     DASH_OUT.write_text(html)
     print(f"Dashboard saved → {DASH_OUT}", flush=True)
