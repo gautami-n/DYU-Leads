@@ -24,8 +24,8 @@ COLORS = {
     "IVF / IUI":    "#0e6655",
     "Other":        "#4a4a6a",
 }
-TREATMENT_ORDER = ["Emsella", "Emsculpt Neo", "Baby Spa", "LHR", "Aesthetics", "IVF / IUI", "Other"]
-SHEET_URL = "https://script.google.com/macros/s/AKfycbwR5l0VJG-pkoFzALMuDli5HKS01QqfvtdnaThLQRjtUGsQa_J-R9VEcyxpcyaPRGRc/exec"
+TREATMENT_ORDER = ["Emsella", "Emsculpt Neo", "Baby Spa", "LHR", "Aesthetics", "IVF / IUI"]
+SHEET_URL = "https://script.google.com/macros/s/AKfycbxqOBYfrlJfx_OM6HJgmsaOjewOIf29gHuRAO1CwSrHv-iOGvWXfGoa3wlQUmaWFb2v/exec"
 
 
 def fmt_date(s):
@@ -323,6 +323,7 @@ function fmtI(n){{return n?Math.round(n).toLocaleString('en-IN'):'—';}}
 
 function getRemark(id){{return(sheetData[id]||{{}}).remarks||'';}}
 function getConv(id){{const v=(sheetData[id]||{{}}).converted;return v===true||v==='true';}}
+function getAmt(id){{return(sheetData[id]||{{}}).service_amount||'';}}
 
 function setRemark(id,v){{
   if(!sheetData[id])sheetData[id]={{}};
@@ -335,15 +336,23 @@ function setConv(id,v){{
   syncToSheet(id);
   updateRow(id);
 }}
+function setAmt(id,v){{
+  if(!sheetData[id])sheetData[id]={{}};
+  sheetData[id].service_amount=v;
+  syncToSheet(id);
+}}
 
 let syncTimer={{}};
 function syncToSheet(id){{
   clearTimeout(syncTimer[id]);
   syncTimer[id]=setTimeout(()=>{{
     const d=sheetData[id]||{{}};
-    fetch(SHEET_URL+'?action=write&lead_id='+encodeURIComponent(id)
-      +'&remarks='+encodeURIComponent(d.remarks||'')
-      +'&converted='+encodeURIComponent(d.converted||false)).catch(()=>{{}});
+    fetch(SHEET_URL+'?action=write'
+      +'&lead_id='+encodeURIComponent(id)
+      +'&remarks='+encodeURIComponent(d.remarks!==undefined?d.remarks:'')
+      +'&converted='+encodeURIComponent(d.converted||false)
+      +'&service_amount='+encodeURIComponent(d.service_amount!==undefined?d.service_amount:'')
+    ).catch(()=>{{}});
   }},600);
 }}
 
@@ -351,7 +360,7 @@ async function loadFromSheet(){{
   try{{
     const r=await fetch(SHEET_URL+'?action=read');
     const rows=await r.json();
-    rows.forEach(r=>{{sheetData[r.lead_id]={{remarks:r.remarks,converted:r.converted}};}} );
+    rows.forEach(r=>{{sheetData[r.lead_id]={{remarks:r.remarks,converted:r.converted,service_amount:r.service_amount}};}} );
   }}catch(e){{console.warn('Sheet sync failed',e);}}
   applyFilter();
 }}
@@ -399,7 +408,7 @@ function buildTable(leads){{
   if(!leads.length)return'<div class="empty">No leads in this date range.</div>';
   const extra=extraCols(leads);
   const dataCols=['Name','Phone','Email','Form','Submitted',...extra];
-  const header=[...dataCols,'Remarks','Converted?'].map(c=>`<th>${{c}}</th>`).join('');
+  const header=[...dataCols,'Service Amt (₹)','Remarks','Converted?'].map(c=>`<th>${{c}}</th>`).join('');
   const rows=leads.map(l=>{{
     const conv=getConv(l.id);
     const cells=dataCols.map(c=>{{
@@ -407,9 +416,10 @@ function buildTable(leads){{
       if(c==='Submitted')return`<td>${{l.date||'—'}}</td>`;
       return`<td title="${{(l[c]||'').toString().replace(/"/g,"'")}}">${{l[c]||'—'}}</td>`;
     }}).join('');
+    const amtCell=`<td style="width:100px"><input type="number" min="0" style="width:90px;padding:5px 8px;border:1.5px solid #e5e7eb;border-radius:6px;font-size:.8rem;outline:none" value="${{getAmt(l.id)}}" placeholder="₹ 0" oninput="setAmt('${{l.id}}',this.value)" onfocus="this.style.borderColor='#1a5276'" onblur="this.style.borderColor='#e5e7eb'"></td>`;
     const remarkCell=`<td class="remark-td"><textarea class="remark-input" rows="2" data-id="${{l.id}}" placeholder="Add note…" oninput="setRemark('${{l.id}}',this.value)">${{getRemark(l.id)}}</textarea></td>`;
     const convCell=`<td class="conv-td"><div class="conv-wrap"><input type="checkbox" class="conv-cb" data-id="${{l.id}}" ${{conv?'checked':''}} onchange="toggleConv(this)"><span class="conv-lbl">${{conv?'✓':''}}</span></div></td>`;
-    return`<tr class="${{conv?'converted':''}}" id="row-${{l.id}}">${{cells}}${{remarkCell}}${{convCell}}</tr>`;
+    return`<tr class="${{conv?'converted':''}}" id="row-${{l.id}}">${{cells}}${{amtCell}}${{remarkCell}}${{convCell}}</tr>`;
   }}).join('');
   return`<div class="tbl-wrap"><table><thead><tr>${{header}}</tr></thead><tbody>${{rows}}</tbody></table></div>`;
 }}
@@ -473,12 +483,13 @@ function dlExcel(){{
     const leads=filtered.filter(l=>l._treatment===tx);
     if(!leads.length)return;
     const extra=extraCols(leads);
-    const cols=['Name','Phone','Email','Form','Submitted',...extra,'Remarks','Converted'];
+    const cols=['Name','Phone','Email','Form','Submitted',...extra,'Service Amt (₹)','Remarks','Converted'];
     const rows=leads.map(l=>{{
       const row={{}};
       cols.forEach(c=>{{
-        if(c==='Form')      row[c]=l._form_name||'';
+        if(c==='Form')           row[c]=l._form_name||'';
         else if(c==='Submitted') row[c]=l.date||'';
+        else if(c==='Service Amt (₹)') row[c]=getAmt(l.id)||'';
         else if(c==='Remarks')   row[c]=getRemark(l.id);
         else if(c==='Converted') row[c]=getConv(l.id)?'Yes':'No';
         else row[c]=l[c]||'';
