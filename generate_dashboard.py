@@ -20,11 +20,24 @@ COLORS = {
     "Emsculpt Neo": "#784212",
     "Baby Spa":     "#6c3483",
     "LHR":          "#117a65",
-    "Aesthetics":   "#943126",
-    "IVF / IUI":    "#0e6655",
-    "Other":        "#4a4a6a",
+    "Morpheus8":    "#943126",
+    "IUI":          "#0e6655",
+    "IVF":          "#1a6b4a",
+    "B1G1":         "#6b4a1a",
 }
-TREATMENT_ORDER = ["Emsella", "Emsculpt Neo", "Baby Spa", "LHR", "Aesthetics", "IVF / IUI"]
+
+# Each campaign: display name, keywords to match against form names
+CAMPAIGNS = [
+    {"name": "Emsella",      "keywords": ["emsella", "kegel"]},
+    {"name": "Emsculpt Neo", "keywords": ["emsculpt", "emscutpt", "neo", "hifem"]},
+    {"name": "Baby Spa",     "keywords": ["baby", "spa"]},
+    {"name": "Morpheus8",    "keywords": ["morpheus"]},
+    {"name": "LHR",          "keywords": ["laser", "lhr", "hair removal"]},
+    {"name": "IUI",          "keywords": ["iui"]},
+    {"name": "IVF",          "keywords": ["ivf", "fertility", "camp"]},
+    {"name": "B1G1",         "keywords": ["b1g1", "women's day", "valentine", "bridal", "women's day"]},
+]
+CAMPAIGN_ORDER = [c["name"] for c in CAMPAIGNS]
 SHEET_URL = "https://script.google.com/macros/s/AKfycbxqOBYfrlJfx_OM6HJgmsaOjewOIf29gHuRAO1CwSrHv-iOGvWXfGoa3wlQUmaWFb2v/exec"
 
 
@@ -45,16 +58,12 @@ def iso_to_ts(s):
 def tx_key(t):
     return t.lower().replace(" ", "_").replace("/", "_")
 
-def infer_treatment(name):
+def infer_campaign(name):
     n = name.lower()
-    if "emsella" in n or "kegel" in n:                             return "Emsella"
-    if "emsculpt" in n or "neo" in n or "emscutpt" in n:          return "Emsculpt Neo"
-    if "baby" in n or "spa" in n:                                  return "Baby Spa"
-    if "laser" in n or "lhr" in n or "hair removal" in n:         return "LHR"
-    if "ivf" in n or "iui" in n or "fertility" in n or "camp" in n: return "IVF / IUI"
-    if any(x in n for x in ["aesthetic","glow","facial","skin","b1g1","morpheus","forma","women","bridal"]):
-        return "Aesthetics"
-    return "Other"
+    for c in CAMPAIGNS:
+        if any(k in n for k in c["keywords"]):
+            return c["name"]
+    return None
 
 
 def get_page_token():
@@ -128,7 +137,9 @@ def fetch_campaign_insights():
     for c in campaigns:
         if c.get("effective_status") not in ("ACTIVE", "PAUSED"):
             continue
-        treatment = infer_treatment(c["name"])
+        treatment = infer_campaign(c["name"])
+        if not treatment:
+            continue
         resp = requests.get(f"https://graph.facebook.com/v21.0/{c['id']}/insights",
             params={"access_token": META_TOKEN,
                     "time_range": json.dumps({"since": month_start, "until": today}),
@@ -162,10 +173,12 @@ def fetch_all_data():
             all_leads.append(l)
     page_token = get_page_token()
     for f in fetch_page_forms(page_token):
-        treatment = infer_treatment(f.get("name", ""))
+        treatment = infer_campaign(f.get("name", ""))
         print(f"  '{f.get('name')}' → {treatment}")
         leads, _ = fetch_leads_for_form(f["id"], page_token)
         print(f"    {len(leads)} leads")
+        if not treatment:
+            continue
         for lead in leads:
             lead["_form_name"] = f.get("name", f["id"])
             lead["_treatment"] = treatment
@@ -185,7 +198,7 @@ def generate(all_leads, insights, month_label):
             lead["Phone"] = "+" + p
 
     all_leads.sort(key=lambda l: l.get("date_ts", ""), reverse=True)
-    treatments = [t for t in TREATMENT_ORDER if any(l.get("_treatment") == t for l in all_leads)]
+    treatments = [t for t in CAMPAIGN_ORDER if any(l.get("_treatment") == t for l in all_leads)]
 
     today_cut = datetime.now(IST).strftime("%Y-%m-%d")
     week_cut  = (datetime.now(IST) - timedelta(days=7)).strftime("%Y-%m-%d")
