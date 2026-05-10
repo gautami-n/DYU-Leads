@@ -22230,5 +22230,42 @@
     "How soon would you like to schedule a visit or appointment?": "Within the next week",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
+  },
+  {
+    "id": "948039268127380",
+    "date": "10 May 2026, 03:45 PM",
+    "date_ts": "2026-05-10",
+    "Name": "Chandana M K",
+    "Which area would you like to target?": "Arms",
+    "Have you tried any body contouring treatments before?": "Yes",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Phone": "+917676607566",
+    "When are you looking to start treatment?": "Immediately",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "1377111534242838",
+    "date": "10 May 2026, 04:06 PM",
+    "date_ts": "2026-05-10",
+    "Baby's age": "0-2 Months",
+    "How soon would you like to schedule a visit or appointment?": "Within the next month",
+    "First name": "Siddharth",
+    "Phone": "+918861718072",
+    "Job title": "Engineering",
+    "_form_name": "Baby Spa in Bangalore-copy-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1311395334265450",
+    "date": "10 May 2026, 03:51 PM",
+    "date_ts": "2026-05-10",
+    "Baby's age": "7-10 Months",
+    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
+    "First name": "Laxmi Narayan",
+    "Phone": "+918249492824",
+    "Job title": "Abc",
+    "_form_name": "Baby Spa in Bangalore-copy-copy",
+    "_treatment": "Baby Spa"
   }
 ]
