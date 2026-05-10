@@ -22205,5 +22205,30 @@
     "Job title": "Technical Lead",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1485149433080927",
+    "date": "10 May 2026, 12:23 PM",
+    "date_ts": "2026-05-10",
+    "Name": "Arghya Hazra",
+    "Phone": "+919901491272",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Abdomen",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "2102213230351335",
+    "date": "10 May 2026, 12:34 PM",
+    "date_ts": "2026-05-10",
+    "First name": "Iqbal",
+    "Phone": "+919900729211",
+    "Job title": "Manager",
+    "Baby's age": "3-6 Months",
+    "How soon would you like to schedule a visit or appointment?": "Within the next week",
+    "_form_name": "Baby Spa in Bangalore-copy-copy",
+    "_treatment": "Baby Spa"
   }
 ]
