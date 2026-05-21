@@ -24,6 +24,7 @@ COLORS = {
     "IUI":          "#0e6655",
     "IVF":          "#1a6b4a",
     "B1G1":         "#6b4a1a",
+    "Aquatherapy":  "#1a7a8a",
 }
 
 # Each campaign: display name, keywords to match against form names
@@ -36,6 +37,7 @@ CAMPAIGNS = [
     {"name": "IUI",          "keywords": ["iui"]},
     {"name": "IVF",          "keywords": ["ivf", "fertility", "camp"]},
     {"name": "B1G1",         "keywords": ["b1g1", "women's day", "valentine", "bridal", "women's day"]},
+    {"name": "Aquatherapy",  "keywords": ["aquatherapy", "aqua", "water treadmill", "treadmill"]},
 ]
 CAMPAIGN_ORDER = [c["name"] for c in CAMPAIGNS]
 SHEET_URL = "https://script.google.com/macros/s/AKfycbxqOBYfrlJfx_OM6HJgmsaOjewOIf29gHuRAO1CwSrHv-iOGvWXfGoa3wlQUmaWFb2v/exec"
