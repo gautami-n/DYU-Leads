@@ -25588,5 +25588,54 @@
     "Phone": "+918139968367",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "1540182791154281",
+    "date": "24 May 2026, 08:28 PM",
+    "date_ts": "2026-05-24",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Name": "Ishan",
+    "Phone": "+918660214623",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1457014972892142",
+    "date": "24 May 2026, 10:05 PM",
+    "date_ts": "2026-05-24",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Abdomen",
+    "When are you looking to start treatment?": "Just exploring",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Anubhav",
+    "Phone": "+919602758064",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "984876287849650",
+    "date": "24 May 2026, 09:37 PM",
+    "date_ts": "2026-05-24",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Abdomen",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Vimal Raj",
+    "Phone": "+919599076113",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "26812431868438026",
+    "date": "24 May 2026, 08:38 PM",
+    "date_ts": "2026-05-24",
+    "Baby's age": "3-6 Months",
+    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
+    "First name": "Alfishan",
+    "Phone": "+916362064078",
+    "Job title": "Business Manager",
+    "_form_name": "Baby Spa in Bangalore-copy-copy",
+    "_treatment": "Baby Spa"
   }
 ]
