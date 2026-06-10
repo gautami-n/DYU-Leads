@@ -29387,5 +29387,75 @@
     "How soon would you like to schedule a visit or appointment?": "Within the next week",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1033879495877373",
+    "date": "10 Jun 2026, 04:50 PM",
+    "date_ts": "2026-06-10",
+    "Name": "Jugnu Agarwal",
+    "Phone": "+919916796920",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "4522783887950254",
+    "date": "10 Jun 2026, 04:49 PM",
+    "date_ts": "2026-06-10",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Body tightening / cellulite / stretch marks",
+    "Name": "Kenchappa Kenchappa",
+    "Phone": "+918152992217",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "4673855562862447",
+    "date": "10 Jun 2026, 03:49 PM",
+    "date_ts": "2026-06-10",
+    "Have you had any skin treatment done before?": "No",
+    "Which area would you like treat?": "Acne scars & texture improvement",
+    "Name": "V",
+    "Phone": "+917795359663",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "1664524701505858",
+    "date": "10 Jun 2026, 01:39 PM",
+    "date_ts": "2026-06-10",
+    "Name": "Palaash Sawant",
+    "Phone": "+919561098556",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Abdomen",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "1719819089022642",
+    "date": "10 Jun 2026, 04:09 PM",
+    "date_ts": "2026-06-10",
+    "First name": "Vasundhara",
+    "Phone": "+917999575634",
+    "Job title": "Technology Analyst",
+    "Baby's age": "3-6 Months",
+    "How soon would you like to schedule a visit or appointment?": "Within the next month",
+    "_form_name": "Baby Spa in Bangalore-copy-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1981846585804250",
+    "date": "10 Jun 2026, 02:07 PM",
+    "date_ts": "2026-06-10",
+    "First name": "ranjani",
+    "Phone": "+919886673838",
+    "Job title": "None",
+    "Baby's age": "3-6 Months",
+    "How soon would you like to schedule a visit or appointment?": "Within the next month",
+    "_form_name": "Baby Spa in Bangalore-copy-copy",
+    "_treatment": "Baby Spa"
   }
 ]
