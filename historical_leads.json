@@ -38373,5 +38373,68 @@
     "Phone number": "+918105733129",
     "_form_name": "09/05_Babyspa",
     "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1705418597275230",
+    "date": "26 Jun 2026, 07:09 PM",
+    "date_ts": "2026-06-26",
+    "Name": "Infint Reave",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "What is your baby's age?": "3-6 Months",
+    "Phone": "+919945023863",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
+    "When would you like to visit?": "Next Week",
+    "_form_name": "Baby Spa Jun 2026 OTP",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1810831056956793",
+    "date": "26 Jun 2026, 06:01 PM",
+    "date_ts": "2026-06-26",
+    "Email": "hirethebeasts@gmail.com",
+    "Name": "Ravalika Mukku",
+    "Phone number": "+919652560444",
+    "👶 What is your baby's age?": "6–12 Months",
+    "📅 When would you like to visit?": "This Week",
+    "🌊 Has your baby experienced a Baby Spa or Hydrotherapy before?": "No",
+    "_form_name": "09/05_Babyspa",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1419736186866988",
+    "date": "26 Jun 2026, 04:15 PM",
+    "date_ts": "2026-06-26",
+    "Email": "shubhvish7@gmail.com",
+    "Name": "Shubham Vishwakarma",
+    "Phone number": "+918576821496",
+    "👶 What is your baby's age?": "6–12 Months",
+    "📅 When would you like to visit?": "This Week",
+    "🌊 Has your baby experienced a Baby Spa or Hydrotherapy before?": "No",
+    "_form_name": "09/05_Babyspa",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1226721157182819",
+    "date": "26 Jun 2026, 05:54 PM",
+    "date_ts": "2026-06-26",
+    "Have you had any skin treatment done before?": "No",
+    "Which area would you like treat?": "General skin rejuvenation",
+    "Name": "nanjappa",
+    "Phone": "+919148490423",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "866371636531007",
+    "date": "26 Jun 2026, 06:09 PM",
+    "date_ts": "2026-06-26",
+    "Name": "Gururaj Galagali",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "No",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Phone": "+919886678222",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   }
 ]
