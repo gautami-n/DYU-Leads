@@ -840,6 +840,42 @@
     "_treatment": "Baby Spa"
   },
   {
+    "id": "1005250972477755",
+    "date": "06 Jul 2026, 06:19 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120246434949010425",
+    "Name": "Kanika Bahety Mantri",
+    "Phone": "+918080716748",
+    "What are you looking for your child?": "General fitness & fun",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1327625649568575",
+    "date": "06 Jul 2026, 03:57 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120246434949010425",
+    "What are you looking for your child?": "Developmental support",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "Name": "prabha-manda",
+    "Phone": "+919972691173",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1020062603942434",
+    "date": "06 Jul 2026, 03:14 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120246434949010425",
+    "Name": "Bharat",
+    "Phone": "+918087811139",
+    "What are you looking for your child?": "Motor development support",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "1376497371026920",
     "date": "06 Jul 2026, 12:49 PM",
     "date_ts": "2026-07-06",
@@ -9983,6 +10019,17 @@
     "_treatment": "Emsella"
   },
   {
+    "id": "1656940985590797",
+    "date": "06 Jul 2026, 03:39 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Weak pelvic/core muscles",
+    "Name": "Gopal Jee",
+    "Phone": "+918299326064",
+    "_form_name": "Emsella, men - April",
+    "_treatment": "Emsella"
+  },
+  {
     "id": "1499345498069483",
     "date": "06 Jul 2026, 09:12 AM",
     "date_ts": "2026-07-06",
@@ -14130,20 +14177,6 @@
     "_treatment": "Emsculpt Neo"
   },
   {
-    "id": "977974398249978",
-    "date": "07 Apr 2026, 03:09 PM",
-    "date_ts": "2026-04-07",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Within 2 weeks",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Siddarth C H",
-    "Phone": "+919591066149",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
     "id": "895347300222122",
     "date": "08 Apr 2026, 07:33 PM",
     "date_ts": "2026-04-08",
@@ -14188,18 +14221,6 @@
     "Name": "akhesh",
     "Phone": "+919305697990",
     "Email": "",
-    "_form_name": "Kegels Chair form, Feb- men-copy-copy",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1600117801271812",
-    "date": "07 Apr 2026, 05:37 PM",
-    "date_ts": "2026-04-07",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Weak pelvic/core muscles",
-    "Name": "˗ˋˏ ♡ 𝘾𝙡𝙞𝙣𝙩𝙤𝙣 ˎˊ˗",
-    "Phone": "+916364703790",
-    "Email": "aldrinsabastain@gmail.com",
     "_form_name": "Kegels Chair form, Feb- men-copy-copy",
     "_treatment": "Emsella"
   },
@@ -20010,32 +20031,6 @@
     "Baby's age": "0-2 Months",
     "First name": "Chaitra",
     "Job title": "travel consultant",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1661984484951657",
-    "date": "07 Apr 2026, 05:42 PM",
-    "date_ts": "2026-04-07",
-    "_campaign_id": "120242499524590425",
-    "Baby's age": "7-10 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Madhu N MasTh",
-    "Phone": "+917353436184",
-    "Job title": "Leon",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1635887751061769",
-    "date": "07 Apr 2026, 04:59 PM",
-    "date_ts": "2026-04-07",
-    "_campaign_id": "120242499524590425",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Niti",
-    "Phone": "+918095704592",
-    "Job title": "Nutrition & Training Consultant",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
