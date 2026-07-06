@@ -91,6 +91,21 @@ def fetch_page_forms(page_token):
     return forms
 
 
+def fetch_account_campaign_ids():
+    """Campaign IDs belonging to AD_ACCOUNT_ID only — used to exclude leads from other
+    ad accounts sharing the same Page (e.g. a partner/reseller account)."""
+    ids, url = set(), f"https://graph.facebook.com/v21.0/act_{AD_ACCOUNT_ID}/campaigns"
+    params = {"access_token": META_TOKEN, "fields": "id", "limit": 100}
+    while url:
+        resp = requests.get(url, params=params).json()
+        if "error" in resp:
+            print(f"  Account campaign fetch error: {resp['error']['message']}")
+            break
+        ids.update(c["id"] for c in resp.get("data", []))
+        url, params = resp.get("paging", {}).get("next"), {}
+    return ids
+
+
 def fetch_leads_for_form(form_id, page_token):
     r = requests.get(f"https://graph.facebook.com/v21.0/{form_id}",
         params={"access_token": page_token, "fields": "questions"}).json()
@@ -104,13 +119,14 @@ def fetch_leads_for_form(form_id, page_token):
         if q.get("options"): value_map[key] = {o["key"]: o["value"] for o in q["options"]}
 
     leads, url = [], f"https://graph.facebook.com/v21.0/{form_id}/leads"
-    params = {"access_token": page_token, "fields": "created_time,field_data,id", "limit": 100}
+    params = {"access_token": page_token, "fields": "created_time,field_data,id,campaign_id", "limit": 100}
     while url:
         resp = requests.get(url, params=params).json()
         if "error" in resp:
             return [], q_order
         for lead in resp.get("data", []):
-            row = {"id": lead["id"], "date": fmt_date(lead["created_time"]), "date_ts": iso_to_ts(lead["created_time"])}
+            row = {"id": lead["id"], "date": fmt_date(lead["created_time"]), "date_ts": iso_to_ts(lead["created_time"]),
+                   "_campaign_id": lead.get("campaign_id")}
             for field in lead.get("field_data", []):
                 col = label_map.get(field["name"], field["name"])
                 raw = field["values"][0] if field.get("values") else ""
@@ -181,25 +197,34 @@ def save_historical(leads):
     HIST_FILE.write_text(json.dumps(leads, ensure_ascii=False, indent=2))
 
 def fetch_all_data():
+    account_campaign_ids = fetch_account_campaign_ids()
+    print(f"  DYU Healthcare account has {len(account_campaign_ids)} campaigns")
+
+    # Rebuilt fresh each run and filtered to this ad account only — old historical_leads.json
+    # may contain leads from other ad accounts sharing the page (e.g. a partner account) and
+    # is not used as a seed to avoid re-introducing them.
     all_leads, seen = [], set()
-    for l in load_historical():
-        if l.get("id") and l["id"] not in seen:
-            seen.add(l["id"])
-            all_leads.append(l)
     page_token = get_page_token()
+    skipped_other_account = 0
     for f in fetch_page_forms(page_token):
         treatment = infer_campaign(f.get("name", ""))
-        print(f"  '{f.get('name')}' → {treatment}")
         leads, _ = fetch_leads_for_form(f["id"], page_token)
-        print(f"    {len(leads)} leads")
         if not treatment:
             continue
+        kept = 0
         for lead in leads:
+            if lead.get("_campaign_id") and lead["_campaign_id"] not in account_campaign_ids:
+                skipped_other_account += 1
+                continue
             lead["_form_name"] = f.get("name", f["id"])
             lead["_treatment"] = treatment
             if lead.get("id") and lead["id"] not in seen:
                 seen.add(lead["id"])
                 all_leads.append(lead)
+                kept += 1
+        if kept:
+            print(f"  '{f.get('name')}' → {treatment}: {kept} leads")
+    print(f"  Skipped {skipped_other_account} leads belonging to other ad accounts")
     save_historical(all_leads)
     return all_leads
 
