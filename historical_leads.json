@@ -1,5 +1,19 @@
 [
   {
+    "id": "1915212465839538",
+    "date": "06 Jul 2026, 11:53 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
+    "Name": "Udit Narayan Das",
+    "What is your baby's age?": "6-12 Months",
+    "When would you like to visit?": "Next Week",
+    "Phone": "+919739710805",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
     "id": "3354430981523113",
     "date": "06 Jul 2026, 11:31 AM",
     "date_ts": "2026-07-06",
@@ -840,6 +854,18 @@
     "_treatment": "Baby Spa"
   },
   {
+    "id": "1557117595759598",
+    "date": "07 Jul 2026, 12:26 PM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120246434949010425",
+    "What are you looking for your child?": "General fitness & fun",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Jeevitha Saravanan",
+    "Phone": "+919789945725",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "999527812854648",
     "date": "06 Jul 2026, 07:31 PM",
     "date_ts": "2026-07-06",
@@ -1389,6 +1415,18 @@
     "Name": "Madhushree",
     "Phone": "+919741348441",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1756753778684520",
+    "date": "07 Jul 2026, 10:51 AM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120246434949010425",
+    "Name": "jatin damani",
+    "Phone": "+919716458515",
+    "What's bringing you to aquatherapy?": "Post-surgery / Injury rehabilitation",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
   {
@@ -5904,6 +5942,66 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "2863046204063077",
+    "date": "07 Jul 2026, 09:54 AM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120244384544260425",
+    "Name": "Prajeesh Kp",
+    "Have you had any skin treatment done before?": "No",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "Phone": "+919916504453",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "990684167295041",
+    "date": "07 Jul 2026, 04:15 AM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120244384544260425",
+    "Name": "Budha Khamma",
+    "Phone": "+919741277928",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "General skin rejuvenation",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "1961170241234068",
+    "date": "06 Jul 2026, 11:49 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120244384544260425",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Body tightening / cellulite / stretch marks",
+    "Name": "Tabrez K",
+    "Phone": "+919108126951",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "1462912312267808",
+    "date": "06 Jul 2026, 10:54 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120244384544260425",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Body tightening / cellulite / stretch marks",
+    "Name": "@#-cute angel",
+    "Phone": "+919956936882",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "1026790543645151",
+    "date": "06 Jul 2026, 10:23 PM",
+    "date_ts": "2026-07-06",
+    "_campaign_id": "120244384544260425",
+    "Have you had any skin treatment done before?": "No",
+    "Which area would you like treat?": "General skin rejuvenation",
+    "Name": "MAZARUL",
+    "Phone": "+916002547977",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
     "id": "1215723073972893",
     "date": "05 Jul 2026, 04:19 PM",
     "date_ts": "2026-07-05",
@@ -8964,6 +9062,17 @@
     "_treatment": "Morpheus8"
   },
   {
+    "id": "1548516220083922",
+    "date": "07 Jul 2026, 07:41 AM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Weak pelvic/core muscles",
+    "Name": "Nayan",
+    "Phone": "+919325880459",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
     "id": "1593588422137707",
     "date": "05 Jul 2026, 05:33 PM",
     "date_ts": "2026-07-05",
@@ -10028,6 +10137,17 @@
     "Name": "syeda Asma",
     "Phone": "+918792558507",
     "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
+    "id": "1404312731637628",
+    "date": "07 Jul 2026, 10:58 AM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120240844142230425",
+    "Name": "Zabi S",
+    "What concerns are you facing?": "Weak pelvic/core muscles",
+    "Phone": "+919686077114",
+    "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
   {
@@ -12031,6 +12151,34 @@
     "Phone": "+918088770991",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "922773167535343",
+    "date": "07 Jul 2026, 02:59 AM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120242744570510425",
+    "When are you looking to start treatment?": "Immediately",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Not sure – Need consultation",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Natraj Kurhe",
+    "Phone": "+917769955869",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "1779516239887224",
+    "date": "07 Jul 2026, 12:24 AM",
+    "date_ts": "2026-07-07",
+    "_campaign_id": "120242744570510425",
+    "Name": "Sahana Rajshekar",
+    "Phone": "+919980801227",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1548196736997924",
@@ -14119,76 +14267,6 @@
     "_treatment": "Emsculpt Neo"
   },
   {
-    "id": "955564110393778",
-    "date": "08 Apr 2026, 12:37 PM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242744570510425",
-    "Name": "CringeWithKavi",
-    "Phone": "+919686024080",
-    "Have you tried any body contouring treatments before?": "Yes",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Just exploring",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1272781534345372",
-    "date": "08 Apr 2026, 09:49 AM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Within 2 weeks",
-    "Are you comfortable visiting our clinic in HSR Layout?": "No",
-    "Name": "Mansoor",
-    "Phone": "+919686333238",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "2244418572964931",
-    "date": "08 Apr 2026, 09:22 AM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242744570510425",
-    "Name": "Ashik Arjun Gi Raj",
-    "Which area would you like to target?": "Abdomen",
-    "Have you tried any body contouring treatments before?": "Yes",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Phone": "+919507039932",
-    "When are you looking to start treatment?": "Within 2 weeks",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "938873652071018",
-    "date": "08 Apr 2026, 08:02 AM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "No",
-    "Name": "Sridhar Raju",
-    "Phone": "+919739287831",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1488150099417694",
-    "date": "08 Apr 2026, 12:52 AM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242744570510425",
-    "Name": "Manjunath S",
-    "Phone": "+917892236070",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
     "id": "895347300222122",
     "date": "08 Apr 2026, 07:33 PM",
     "date_ts": "2026-04-08",
@@ -14210,18 +14288,6 @@
     "Phone": "+918002497367",
     "Email": "varun9a8@gmail.com",
     "_form_name": "Kegels Chair form, Feb- men-copy-copy",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1442499500681887",
-    "date": "07 Apr 2026, 11:19 PM",
-    "date_ts": "2026-04-07",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Weak pelvic/core muscles",
-    "Name": "Rekha",
-    "Phone": "+919620422552",
-    "Email": "rekhakranthi64@gmail.com",
-    "_form_name": "Emsella chair form, Feb- Women",
     "_treatment": "Emsella"
   },
   {
@@ -19967,45 +20033,6 @@
     "First name": "Megha",
     "Phone": "+919591277552",
     "Job title": "Wellness Coach",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "953686470718404",
-    "date": "08 Apr 2026, 09:44 AM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242499524590425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Nadi",
-    "Phone": "+919739088434",
-    "Job title": "Spa",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "3210588795790462",
-    "date": "08 Apr 2026, 08:58 AM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242499524590425",
-    "First name": "Sahera",
-    "Phone": "+919164554511",
-    "Job title": "Hjj",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next week",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1254294076865733",
-    "date": "08 Apr 2026, 07:38 AM",
-    "date_ts": "2026-04-08",
-    "_campaign_id": "120242499524590425",
-    "First name": "Md",
-    "Phone": "+917899819845",
-    "Job title": "Student",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next week",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
