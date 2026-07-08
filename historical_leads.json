@@ -1456,6 +1456,18 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "1023931536889001",
+    "date": "08 Jul 2026, 04:33 PM",
+    "date_ts": "2026-07-08",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Venkataraman",
+    "Phone": "+919482580891",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "1562228871969284",
     "date": "07 Jul 2026, 02:02 PM",
     "date_ts": "2026-07-07",
@@ -12293,6 +12305,20 @@
     "Phone": "+918088770991",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "894782543093722",
+    "date": "08 Jul 2026, 05:56 PM",
+    "date_ts": "2026-07-08",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Not sure – Need consultation",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Within a month",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Vinay Lakkimarad",
+    "Phone": "+919611563731",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1019204637369031",
