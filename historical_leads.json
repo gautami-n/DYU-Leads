@@ -1,5 +1,61 @@
 [
   {
+    "id": "2146558649254308",
+    "date": "09 Jul 2026, 10:26 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
+    "Name": "Jafferali Baig",
+    "What is your baby's age?": "0-3 Months",
+    "When would you like to visit?": "Next Week",
+    "Phone": "+917406464570",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1027435369983583",
+    "date": "09 Jul 2026, 09:09 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Name": "thandav krishna",
+    "When would you like to visit?": "Next Week",
+    "What is your baby's age?": "6-12 Months",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
+    "Phone": "+919652789806",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "984058114448252",
+    "date": "09 Jul 2026, 12:55 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
+    "Name": "Sinduja Venugopal",
+    "What is your baby's age?": "0-3 Months",
+    "When would you like to visit?": "Next Week",
+    "Phone": "+918747061109",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "906176965848659",
+    "date": "08 Jul 2026, 11:18 PM",
+    "date_ts": "2026-07-08",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Name": "Raghav",
+    "When would you like to visit?": "Next Week",
+    "What is your baby's age?": "1-2 Years",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
+    "Phone": "+919742420189",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
     "id": "1415060447129868",
     "date": "08 Jul 2026, 01:54 PM",
     "date_ts": "2026-07-08",
@@ -1453,6 +1509,18 @@
     "Name": "Madhushree",
     "Phone": "+919741348441",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "881812011642793",
+    "date": "09 Jul 2026, 11:35 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Rani sahu",
+    "Phone": "+917225942029",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
   {
@@ -6016,6 +6084,18 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "2208419706611353",
+    "date": "09 Jul 2026, 02:19 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120244384544260425",
+    "Name": "Sapna Kala",
+    "Phone": "+919886488949",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
     "id": "1404664275055650",
     "date": "07 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-07",
@@ -10272,6 +10352,28 @@
     "_treatment": "Emsella"
   },
   {
+    "id": "1009178948505080",
+    "date": "09 Jul 2026, 01:06 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
+    "Name": "محمد شاروخ",
+    "Phone": "+919620299803",
+    "_form_name": "Emsella, men - April",
+    "_treatment": "Emsella"
+  },
+  {
+    "id": "1617940126692299",
+    "date": "08 Jul 2026, 11:51 PM",
+    "date_ts": "2026-07-08",
+    "_campaign_id": "120240844142230425",
+    "Name": "Darshan",
+    "Phone": "+918310449376",
+    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
+    "_form_name": "Emsella, men - April",
+    "_treatment": "Emsella"
+  },
+  {
     "id": "1014319214575528",
     "date": "07 Jul 2026, 09:43 PM",
     "date_ts": "2026-07-07",
@@ -12305,6 +12407,48 @@
     "Phone": "+918088770991",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "1916075185752181",
+    "date": "09 Jul 2026, 01:46 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Thighs",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Just exploring",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Jayanth Polisetty",
+    "Phone": "+919986864283",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "3904496779685430",
+    "date": "09 Jul 2026, 01:41 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "Yes",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "𝙇𝙪𝙛𝙩𝙝𝙖𝙣𝙨𝙖 𝙋𝙞𝙡𝙤𝙩..",
+    "Phone": "+919361875184",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "1340348604218733",
+    "date": "09 Jul 2026, 12:07 AM",
+    "date_ts": "2026-07-09",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "Yes",
+    "When are you looking to start treatment?": "Immediately",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Dhanush Kumar S",
+    "Phone": "+919538452530",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1368878962006598",
