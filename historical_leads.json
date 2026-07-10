@@ -1578,6 +1578,18 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "2533309807143147",
+    "date": "10 Jul 2026, 09:23 PM",
+    "date_ts": "2026-07-10",
+    "_campaign_id": "120246434949010425",
+    "Name": "Sarita Ghosh",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Phone": "+919980511665",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "1026146569783872",
     "date": "10 Jul 2026, 07:15 AM",
     "date_ts": "2026-07-10",
@@ -9474,6 +9486,28 @@
     "_treatment": "Morpheus8"
   },
   {
+    "id": "4018290261808356",
+    "date": "10 Jul 2026, 09:12 PM",
+    "date_ts": "2026-07-10",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Weak pelvic/core muscles",
+    "Name": "Sancita",
+    "Phone": "+919972542345",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
+    "id": "1569884347815249",
+    "date": "10 Jul 2026, 08:21 PM",
+    "date_ts": "2026-07-10",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
+    "Name": "Divya Bangalore",
+    "Phone": "+919845009512",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
     "id": "1384855813546662",
     "date": "08 Jul 2026, 08:13 AM",
     "date_ts": "2026-07-08",
@@ -12640,6 +12674,20 @@
     "Phone": "+918088770991",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "27447329558267901",
+    "date": "10 Jul 2026, 09:21 PM",
+    "date_ts": "2026-07-10",
+    "_campaign_id": "120242744570510425",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Abdomen",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "No",
+    "Name": "As Manjunath",
+    "Phone": "+919483007256",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1916075185752181",
