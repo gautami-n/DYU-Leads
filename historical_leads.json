@@ -1008,6 +1008,18 @@
     "_treatment": "Baby Spa"
   },
   {
+    "id": "1058431047124601",
+    "date": "12 Jul 2026, 10:51 AM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120246434949010425",
+    "What are you looking for your child?": "Motor development support",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Nithyasree",
+    "Phone": "+919361639313",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "1347451183453105",
     "date": "11 Jul 2026, 07:48 PM",
     "date_ts": "2026-07-11",
@@ -1641,6 +1653,42 @@
     "Name": "Madhushree",
     "Phone": "+919741348441",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1388459073190409",
+    "date": "12 Jul 2026, 11:49 AM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120246434949010425",
+    "Name": "Gayathri Meenakshi",
+    "Phone": "+919710415880",
+    "What's bringing you to aquatherapy?": "Stress management & wellness",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1594846362202087",
+    "date": "12 Jul 2026, 09:39 AM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Nupur Etha",
+    "Phone": "+919611659454",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1538911617639992",
+    "date": "12 Jul 2026, 01:45 AM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120246434949010425",
+    "Name": "Simple but powerful",
+    "Phone": "+919952916992",
+    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
   {
@@ -12881,6 +12929,34 @@
     "Phone": "+918088770991",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "1566666268321903",
+    "date": "12 Jul 2026, 09:58 AM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120242744570510425",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Not sure – Need consultation",
+    "When are you looking to start treatment?": "Immediately",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Monish Raj",
+    "Phone": "+917200396011",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "1986290236108008",
+    "date": "12 Jul 2026, 09:55 AM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Not sure – Need consultation",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Immediately",
+    "Are you comfortable visiting our clinic in HSR Layout?": "No",
+    "Name": "Ayur",
+    "Phone": "+917907870106",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "27447329558267901",
