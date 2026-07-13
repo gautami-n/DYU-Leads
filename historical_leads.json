@@ -1,5 +1,33 @@
 [
   {
+    "id": "1736777650795382",
+    "date": "13 Jul 2026, 12:38 AM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Name": "Ashwini Hiremath",
+    "When would you like to visit?": "This Week",
+    "What is your baby's age?": "6-12 Months",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
+    "Phone": "+918951858472",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1185731130397924",
+    "date": "12 Jul 2026, 11:15 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
+    "Name": "Namrata Neopaney",
+    "What is your baby's age?": "6-12 Months",
+    "When would you like to visit?": "Next Week",
+    "Phone": "+918967857109",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
     "id": "1021711124088364",
     "date": "11 Jul 2026, 05:01 PM",
     "date_ts": "2026-07-11",
@@ -1008,6 +1036,18 @@
     "_treatment": "Baby Spa"
   },
   {
+    "id": "3244179502432798",
+    "date": "13 Jul 2026, 12:01 PM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120246434949010425",
+    "Name": "Ruchira",
+    "Phone": "+919833756131",
+    "What are you looking for your child?": "General fitness & fun",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "1568829798185222",
     "date": "12 Jul 2026, 07:52 PM",
     "date_ts": "2026-07-12",
@@ -1701,6 +1741,42 @@
     "Name": "Madhushree",
     "Phone": "+919741348441",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "2497040887431529",
+    "date": "13 Jul 2026, 03:08 AM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120246434949010425",
+    "Name": "S",
+    "Phone": "+919880777234",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1043921034855388",
+    "date": "12 Jul 2026, 10:56 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Stress management & wellness",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Anuradha",
+    "Phone": "+918884790777",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1343234600628852",
+    "date": "12 Jul 2026, 10:19 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "archana",
+    "Phone": "+919986369622",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
   {
@@ -6540,6 +6616,42 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "2933921323626902",
+    "date": "13 Jul 2026, 09:53 AM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120244384544260425",
+    "Name": "Yogesh Reddy",
+    "Phone": "+919741469934",
+    "Have you had any skin treatment done before?": "No",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "4121040718185957",
+    "date": "12 Jul 2026, 11:27 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120244384544260425",
+    "Name": "Prabhakar Daddala",
+    "Phone": "+919739771750",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "General skin rejuvenation",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "2547507535688959",
+    "date": "12 Jul 2026, 11:23 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120244384544260425",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "Name": "Shyam Sundar Dube",
+    "Phone": "+919163822209",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
     "id": "1542989214187878",
     "date": "12 Jul 2026, 09:20 PM",
     "date_ts": "2026-07-12",
@@ -9876,6 +9988,61 @@
     "_treatment": "Morpheus8"
   },
   {
+    "id": "1342527651182092",
+    "date": "13 Jul 2026, 10:55 AM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Menopause-related discomfort",
+    "Name": "beena thomas",
+    "Phone": "+919538881428",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
+    "id": "1534579398139266",
+    "date": "13 Jul 2026, 01:22 AM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
+    "Name": "Sreedevi",
+    "Phone": "+919968933445",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
+    "id": "2285822322162802",
+    "date": "13 Jul 2026, 12:29 AM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Menopause-related discomfort",
+    "Name": "akter unisa",
+    "Phone": "+918861839456",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
+    "id": "862836096583955",
+    "date": "12 Jul 2026, 10:45 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Post-pregnancy changes",
+    "Name": "Aparna Naik",
+    "Phone": "+919900085531",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
+    "id": "1753845272591290",
+    "date": "12 Jul 2026, 10:35 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120240844142230425",
+    "What concerns are you facing?": "Menopause-related discomfort",
+    "Name": "Kanaka Vasudevan",
+    "Phone": "+918217519714",
+    "_form_name": "Emsella women - April",
+    "_treatment": "Emsella"
+  },
+  {
     "id": "1402655818352316",
     "date": "12 Jul 2026, 10:13 PM",
     "date_ts": "2026-07-12",
@@ -13141,6 +13308,20 @@
     "Phone": "+918088770991",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "3525799414237166",
+    "date": "12 Jul 2026, 10:32 PM",
+    "date_ts": "2026-07-12",
+    "_campaign_id": "120242744570510425",
+    "Name": "Raghu Suryavansi",
+    "Phone": "+919880233630",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1566666268321903",
