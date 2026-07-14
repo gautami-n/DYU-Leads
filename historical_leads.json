@@ -1064,6 +1064,42 @@
     "_treatment": "Baby Spa"
   },
   {
+    "id": "1676777650042361",
+    "date": "14 Jul 2026, 10:54 AM",
+    "date_ts": "2026-07-14",
+    "_campaign_id": "120246434949010425",
+    "Name": "Prajakta Sadawarti",
+    "Phone": "+919527762469",
+    "What are you looking for your child?": "General fitness & fun",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1555279242793789",
+    "date": "14 Jul 2026, 01:07 AM",
+    "date_ts": "2026-07-14",
+    "_campaign_id": "120246434949010425",
+    "What are you looking for your child?": "General fitness & fun",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "Name": "Neethu",
+    "Phone": "+918197295641",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1539829384440348",
+    "date": "13 Jul 2026, 11:08 PM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120246434949010425",
+    "Name": "Ravi",
+    "Phone": "+916366326508",
+    "What are you looking for your child?": "Motor development support",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "27874323742193325",
     "date": "13 Jul 2026, 04:30 PM",
     "date_ts": "2026-07-13",
@@ -1781,6 +1817,54 @@
     "Name": "Madhushree",
     "Phone": "+919741348441",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1075057584855642",
+    "date": "14 Jul 2026, 07:58 AM",
+    "date_ts": "2026-07-14",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Mohan Daiya",
+    "Phone": "+917259276791",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1068044352844394",
+    "date": "13 Jul 2026, 10:49 PM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120246434949010425",
+    "Name": "Dr. Apoorva Garg",
+    "Phone": "+919461848061",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1376330941347355",
+    "date": "13 Jul 2026, 10:33 PM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Anu Mahesh",
+    "Phone": "+919341331140",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
+    "id": "1031345189366170",
+    "date": "13 Jul 2026, 10:28 PM",
+    "date_ts": "2026-07-13",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "Name": "Ambika MN",
+    "Phone": "+919880901828",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
   {
@@ -13383,6 +13467,20 @@
     "Phone": "+918088770991",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "991987833837544",
+    "date": "14 Jul 2026, 01:18 AM",
+    "date_ts": "2026-07-14",
+    "_campaign_id": "120242744570510425",
+    "Name": "Abhishek",
+    "Phone": "+919986902083",
+    "Have you tried any body contouring treatments before?": "No",
+    "Which area would you like to target?": "Not sure – Need consultation",
+    "When are you looking to start treatment?": "Immediately",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "3525799414237166",
