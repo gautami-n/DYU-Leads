@@ -10252,42 +10252,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "2235914440278522",
-    "date": "20 Apr 2026, 10:00 AM",
-    "date_ts": "2026-04-20",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "Dr urmila jayeshkumar",
-    "Phone": "+919019258852",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "26393031303641519",
-    "date": "20 Apr 2026, 08:10 AM",
-    "date_ts": "2026-04-20",
-    "_campaign_id": "120244384544260425",
-    "Phone": "+916360598903",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "Name": "Mehabub",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1701204274650140",
-    "date": "20 Apr 2026, 12:02 AM",
-    "date_ts": "2026-04-20",
-    "_campaign_id": "120244384544260425",
-    "Name": "Hari Krishna",
-    "Phone": "+919743184626",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1006797422340584",
     "date": "15 Jul 2026, 12:03 PM",
     "date_ts": "2026-07-15",
@@ -13199,17 +13163,6 @@
     "Name": "roshan",
     "What concerns are you facing?": "Weak pelvic/core muscles",
     "Phone": "+919986415522",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1000367665652182",
-    "date": "20 Apr 2026, 08:15 AM",
-    "date_ts": "2026-04-20",
-    "_campaign_id": "120240844142230425",
-    "Phone": "+917259877350",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "Name": "Murli Sreenivas",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
