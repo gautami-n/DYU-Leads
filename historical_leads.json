@@ -1962,6 +1962,18 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "1362918788667360",
+    "date": "20 Jul 2026, 08:32 PM",
+    "date_ts": "2026-07-20",
+    "_campaign_id": "120246434949010425",
+    "What's bringing you to aquatherapy?": "Weight loss & fitness",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
+    "Name": "Shilpi Bhuwania",
+    "Phone": "+919886701060",
+    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "973268735763139",
     "date": "15 Jul 2026, 11:40 PM",
     "date_ts": "2026-07-15",
@@ -10214,30 +10226,6 @@
     "Which area would you like treat?": "General skin rejuvenation",
     "Name": "Asha",
     "Phone": "+919606598369",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "946014531402286",
-    "date": "21 Apr 2026, 08:19 PM",
-    "date_ts": "2026-04-21",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "Name": "Shivani Gupta",
-    "Phone": "+919902972504",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "26062078040136701",
-    "date": "21 Apr 2026, 08:08 PM",
-    "date_ts": "2026-04-21",
-    "_campaign_id": "120244384544260425",
-    "Name": "Harinaksshi Gowda",
-    "Phone": "+919900605700",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "General skin rejuvenation",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
@@ -20770,58 +20758,6 @@
     "First name": "Raghav",
     "Phone": "+918867743457",
     "Job title": "Government services",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "4218724885044004",
-    "date": "21 Apr 2026, 09:04 PM",
-    "date_ts": "2026-04-21",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "First name": "padmashree",
-    "Phone": "+918105295890",
-    "Job title": "Assistant",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1481879430115464",
-    "date": "21 Apr 2026, 08:29 PM",
-    "date_ts": "2026-04-21",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "7-10 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "First name": "Faizan",
-    "Phone": "+919972741443",
-    "Job title": "Salaried",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1121279900190607",
-    "date": "21 Apr 2026, 07:24 PM",
-    "date_ts": "2026-04-21",
-    "_campaign_id": "120244611187610425",
-    "First name": "Hannah Franklay",
-    "Phone": "+917760028016",
-    "Job title": "Customer Support Executive",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1750497189251537",
-    "date": "21 Apr 2026, 07:16 PM",
-    "date_ts": "2026-04-21",
-    "_campaign_id": "120244611187610425",
-    "First name": "Abhishek",
-    "Phone": "+918559835421",
-    "Job title": "Saraf plywood",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
