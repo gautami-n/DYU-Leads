@@ -836,6 +836,34 @@
     "_treatment": "Emsella"
   },
   {
+    "id": "1040437278630725",
+    "date": "06 Aug 2026, 03:27 PM",
+    "date_ts": "2026-08-06",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
+    "Name": "Thulsiram",
+    "What is your baby's age?": "3-6 Months",
+    "When would you like to visit?": "Within 2 Days",
+    "Phone": "+918686746398",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
+    "id": "2437487893398625",
+    "date": "06 Aug 2026, 01:24 PM",
+    "date_ts": "2026-08-06",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Name": "Sampad Panigrahi",
+    "When would you like to visit?": "Next Week",
+    "What is your baby's age?": "0-3 Months",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
+    "Phone": "+919880986026",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
     "id": "1580878183384262",
     "date": "03 Aug 2026, 01:29 PM",
     "date_ts": "2026-08-03",
@@ -2528,6 +2556,18 @@
     "Phone": "+919490016509",
     "_form_name": "Baby Spa Jun 2026 OTP",
     "_treatment": "Baby Spa"
+  },
+  {
+    "id": "1533704064897280",
+    "date": "06 Aug 2026, 02:37 PM",
+    "date_ts": "2026-08-06",
+    "_campaign_id": "120246434949010425",
+    "Name": "Priyank Swathi Baid",
+    "Phone": "+917031932229",
+    "What are you looking for your child?": "Developmental support",
+    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
   },
   {
     "id": "2257234358408316",
@@ -12646,30 +12686,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "2015349105735154",
-    "date": "08 May 2026, 02:12 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "Name": "syed seema",
-    "Phone": "+918310144006",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "2082825792576322",
-    "date": "08 May 2026, 12:02 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120244384544260425",
-    "Name": "Ravikumar Ravi",
-    "Phone": "+919741276983",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -13843,17 +13859,6 @@
     "Name": "Priyanka Hemanth",
     "Phone": "+919845201404",
     "What concerns are you facing?": "Weak pelvic/core muscles",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "950529124352239",
-    "date": "08 May 2026, 02:03 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Menopause-related discomfort",
-    "Name": "Sathish lakshmi",
-    "Phone": "+918867138624",
     "_form_name": "Emsella women - April",
     "_treatment": "Emsella"
   },
@@ -15152,39 +15157,6 @@
     "Name": "Ambikapathy Sakthi",
     "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
     "Phone": "+918754897258",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "958580200140709",
-    "date": "08 May 2026, 01:36 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "Name": "Kumar swamy",
-    "Phone": "+918123836162",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "4411884932388253",
-    "date": "08 May 2026, 01:35 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "Name": "Kamal Kishor Trivedi",
-    "Phone": "+917568905196",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1727333395099640",
-    "date": "08 May 2026, 01:12 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "Venkatesh A",
-    "Phone": "+919148691821",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
@@ -21042,45 +21014,6 @@
     "First name": "Aishu",
     "Phone": "+919686805802",
     "Job title": "Business",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1495691062174986",
-    "date": "08 May 2026, 01:37 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120244611187610425",
-    "First name": "Girish",
-    "Phone": "+919492199912",
-    "Job title": "Studying",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1544599543946614",
-    "date": "08 May 2026, 12:08 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120244611187610425",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "Phone": "+919538103915",
-    "Baby's age": "0-2 Months",
-    "First name": "Amrutha",
-    "Job title": "owner",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "3387823504714653",
-    "date": "08 May 2026, 12:07 PM",
-    "date_ts": "2026-05-08",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "First name": "Waseem",
-    "Phone": "+916362832780",
-    "Job title": "SS 7mm Kitchen basket",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
