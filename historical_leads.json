@@ -2628,6 +2628,18 @@
     "_treatment": "Baby Spa"
   },
   {
+    "id": "1516704056446414",
+    "date": "07 Aug 2026, 03:28 PM",
+    "date_ts": "2026-08-07",
+    "_campaign_id": "120246434949010425",
+    "What are you looking for your child?": "General fitness & fun",
+    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
+    "Name": "Faiza Tabassum",
+    "Phone": "+917019394503",
+    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
+    "_treatment": "Aquatherapy"
+  },
+  {
     "id": "1974274413281955",
     "date": "07 Aug 2026, 11:25 AM",
     "date_ts": "2026-08-07",
@@ -12816,18 +12828,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "1403525671816816",
-    "date": "09 May 2026, 02:31 PM",
-    "date_ts": "2026-05-09",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "Yugandhar Ramaiah",
-    "Phone": "+919986594359",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -13957,17 +13957,6 @@
     "Name": "Swathi Reddy",
     "Phone": "+918277461066",
     "What concerns are you facing?": "Menopause-related discomfort",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1639600317309149",
-    "date": "09 May 2026, 03:24 PM",
-    "date_ts": "2026-05-09",
-    "_campaign_id": "120240844142230425",
-    "Name": "Meghna Agrawal",
-    "What concerns are you facing?": "Weak pelvic/core muscles",
-    "Phone": "+918827033708",
     "_form_name": "Emsella women - April",
     "_treatment": "Emsella"
   },
@@ -20892,19 +20881,6 @@
     "Job title": "Resin art",
     "Baby's age": "7-10 Months",
     "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "975317621889298",
-    "date": "09 May 2026, 02:32 PM",
-    "date_ts": "2026-05-09",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "7-10 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "First name": "Navinder",
-    "Phone": "+919738068135",
-    "Job title": "Lead Oracle Database Administrator",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
