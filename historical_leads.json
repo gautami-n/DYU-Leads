@@ -12848,18 +12848,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "1157785036479193",
-    "date": "10 May 2026, 11:06 AM",
-    "date_ts": "2026-05-10",
-    "_campaign_id": "120244384544260425",
-    "Name": "Mallikarjun Hirur",
-    "Phone": "+917760405815",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -15232,17 +15220,6 @@
     "Name": "Depack Mehta",
     "Phone": "+918169857435",
     "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1682428329452704",
-    "date": "10 May 2026, 10:39 AM",
-    "date_ts": "2026-05-10",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "Name": "Naveen Kumar",
-    "Phone": "+918886042400",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
