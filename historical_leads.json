@@ -13991,17 +13991,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "2120156205228082",
-    "date": "15 May 2026, 10:01 PM",
-    "date_ts": "2026-05-15",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "RiShij",
-    "Phone": "+918792919618",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "837962902587636",
     "date": "10 Jul 2026, 11:24 AM",
     "date_ts": "2026-07-10",
@@ -15102,15 +15091,18 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "746612861807537",
-    "date": "15 May 2026, 09:01 PM",
-    "date_ts": "2026-05-15",
-    "_campaign_id": "120240844142230425",
-    "Name": "Vikash Kumar",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Phone": "+919708185059",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
+    "id": "2316902909067874",
+    "date": "13 Aug 2026, 10:02 PM",
+    "date_ts": "2026-08-13",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Sindhu",
+    "Phone": "+919880069350",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1511685060760738",
@@ -20152,32 +20144,6 @@
     "Job title": "Project manager",
     "Baby's age": "7-10 Months",
     "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1617587149308568",
-    "date": "15 May 2026, 09:43 PM",
-    "date_ts": "2026-05-15",
-    "_campaign_id": "120244611187610425",
-    "First name": "Sukanya",
-    "Phone": "+918217587175",
-    "Job title": "Associate lead Exploratory Software tester",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1007250271986307",
-    "date": "15 May 2026, 09:00 PM",
-    "date_ts": "2026-05-15",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "First name": "Himanshu",
-    "Phone": "+919940669299",
-    "Job title": "Software Engineering",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
