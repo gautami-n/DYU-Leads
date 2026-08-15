@@ -15145,6 +15145,20 @@
     "_treatment": "Emsella"
   },
   {
+    "id": "1071725275310660",
+    "date": "14 Aug 2026, 10:15 PM",
+    "date_ts": "2026-08-14",
+    "_campaign_id": "120242744570510425",
+    "Have you tried any body contouring treatments before?": "Yes",
+    "Which area would you like to target?": "Not sure – Need consultation",
+    "When are you looking to start treatment?": "Within 2 weeks",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Subhan Saifi",
+    "Phone": "+917088657209",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
     "id": "1062821506444997",
     "date": "14 Aug 2026, 08:35 PM",
     "date_ts": "2026-08-14",
@@ -20070,32 +20084,6 @@
     "Job title": "S CD sds",
     "Baby's age": "7-10 Months",
     "How soon would you like to schedule a visit or appointment?": "Within the next week",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1186741883495722",
-    "date": "17 May 2026, 03:46 AM",
-    "date_ts": "2026-05-17",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "First name": "Amal",
-    "Phone": "+917012391929",
-    "Job title": "Chief Executive Officer (CEO)",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "979592911326592",
-    "date": "17 May 2026, 01:12 AM",
-    "date_ts": "2026-05-17",
-    "_campaign_id": "120244611187610425",
-    "First name": "Deepika",
-    "Phone": "+919803823172",
-    "Job title": "Tl",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
