@@ -8628,18 +8628,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1523805535918220",
-    "date": "20 May 2026, 08:40 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120246434949010425",
-    "Name": "Sathya",
-    "Phone": "+919731941676",
-    "What's bringing you to aquatherapy?": "Stress management & wellness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -10339,18 +10327,6 @@
     "Name": "Yunis",
     "Phone": "+918962780068",
     "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "What are you looking for your child?": "General fitness & fun",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "785357047860968",
-    "date": "20 May 2026, 08:14 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120246434949010425",
-    "Name": "Arfa Ahmed",
-    "Phone": "+918217775637",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
     "What are you looking for your child?": "General fitness & fun",
     "_form_name": "Aquatherapy Kids — DYU Clinic",
     "_treatment": "Aquatherapy"
@@ -14088,17 +14064,6 @@
     "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
     "Name": "sharada",
     "Phone": "+919972450998",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1983470082531638",
-    "date": "20 May 2026, 08:40 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "Ruchi Narayan",
-    "Phone": "+918115736906",
     "_form_name": "Emsella women - April",
     "_treatment": "Emsella"
   },
@@ -19846,32 +19811,6 @@
     "First name": "Indhu",
     "Phone": "+919113906117",
     "Job title": "5f",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "959031703790519",
-    "date": "20 May 2026, 09:42 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "First name": "Bhagyashree",
-    "Phone": "+919986551986",
-    "Job title": ".",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1612663096486046",
-    "date": "20 May 2026, 08:50 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "7-10 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next week",
-    "First name": "Srishti",
-    "Phone": "+918800572436",
-    "Job title": "Homemaker",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
