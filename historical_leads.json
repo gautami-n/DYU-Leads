@@ -19874,44 +19874,5 @@
     "Job title": "Homemaker",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
-  },
-  {
-    "id": "999995702420115",
-    "date": "20 May 2026, 07:17 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "First name": "Ankita",
-    "Phone": "+919406833730",
-    "Job title": "Associate Team Member",
-    "Baby's age": "7-10 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "939819395545223",
-    "date": "20 May 2026, 06:52 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "First name": "Neha Marathe",
-    "Phone": "+918762377555",
-    "Job title": "Software engineer",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next week",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1317641123803219",
-    "date": "20 May 2026, 06:23 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "First name": "Ruchika",
-    "Phone": "+919513893565",
-    "Job title": "Programmer / Application Developer",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
   }
 ]
