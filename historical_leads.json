@@ -8640,18 +8640,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1301806198742008",
-    "date": "20 May 2026, 04:29 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Name": "Veejay",
-    "Phone": "+919148124694",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -15138,6 +15126,20 @@
     "_treatment": "Emsella"
   },
   {
+    "id": "1374359101343111",
+    "date": "18 Aug 2026, 04:05 PM",
+    "date_ts": "2026-08-18",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Arms",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Immediately",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Pritam",
+    "Phone": "+918918893959",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
     "id": "1848055306576176",
     "date": "16 Aug 2026, 06:55 PM",
     "date_ts": "2026-08-16",
@@ -19909,45 +19911,6 @@
     "First name": "Ruchika",
     "Phone": "+919513893565",
     "Job title": "Programmer / Application Developer",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1870212353571422",
-    "date": "20 May 2026, 05:46 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Sneha",
-    "Phone": "+918050157025",
-    "Job title": "Manager",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "879069725218181",
-    "date": "20 May 2026, 05:09 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "First name": "Kashish Singh",
-    "Phone": "+917795959451",
-    "Job title": "Operations Team Leader",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1485216593285582",
-    "date": "20 May 2026, 04:41 PM",
-    "date_ts": "2026-05-20",
-    "_campaign_id": "120244611187610425",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "Phone": "+919900300004",
-    "Baby's age": "3-6 Months",
-    "First name": "Kishore",
-    "Job title": "Managing Partner",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
