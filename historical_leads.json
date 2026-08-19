@@ -8534,78 +8534,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1356534576348179",
-    "date": "21 May 2026, 11:37 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Name": "laxmi",
-    "Phone": "+919886095710",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1492624365603991",
-    "date": "21 May 2026, 11:10 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "Name": "Gayathri Meenakshi",
-    "Phone": "+919710415880",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "What's bringing you to aquatherapy?": "Stress management & wellness",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1715625039622338",
-    "date": "21 May 2026, 11:09 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Name": "Purnima Raghavan",
-    "Phone": "0000000000",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "984176380757736",
-    "date": "21 May 2026, 10:48 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Post-surgery / Injury rehabilitation",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Rashika",
-    "Phone": "+919535743340",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1344922824151822",
-    "date": "21 May 2026, 10:41 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Vijay Rego",
-    "Phone": "+918861907416",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "982287920955488",
-    "date": "21 May 2026, 10:21 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Vineet Todi",
-    "Phone": "+919845996063",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -10174,30 +10102,6 @@
     "Are you comfortable travelling to HSR Layout?": "I'd need to check",
     "Name": "Sneha",
     "Phone": "6366423839",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1457892749696757",
-    "date": "21 May 2026, 11:37 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "Name": "bindu Sadanandan",
-    "Phone": "+917019015200",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1663003348179713",
-    "date": "21 May 2026, 10:27 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "Name": "Shalini",
-    "Phone": "+917411122310",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "What are you looking for your child?": "Motor development support",
     "_form_name": "Aquatherapy Kids — DYU Clinic",
     "_treatment": "Aquatherapy"
   },
@@ -14939,17 +14843,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "2124530118336659",
-    "date": "21 May 2026, 11:52 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120240844142230425",
-    "Name": "ಗೆಳೆಯ",
-    "Phone": "+918861634139",
-    "What concerns are you facing?": "Post-surgery or recovery support",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "1327390069194945",
     "date": "18 Aug 2026, 10:50 PM",
     "date_ts": "2026-08-18",
@@ -19593,58 +19486,6 @@
     "First name": "santu",
     "Phone": "+919686152533",
     "Job title": "Ueueh",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "966862396128344",
-    "date": "21 May 2026, 11:05 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "First name": "Saloni",
-    "Phone": "+919602337463",
-    "Job title": "Category manager",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1636085390783313",
-    "date": "21 May 2026, 10:57 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120244611187610425",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "Phone": "+919686454888",
-    "Baby's age": "3-6 Months",
-    "First name": "Nandeesh",
-    "Job title": "Senior Quality Analyst",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "996024382980985",
-    "date": "21 May 2026, 10:20 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Hiranmayee",
-    "Phone": "+919444156135",
-    "Job title": "Senior Research Fellow (SRF)",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "2101357653744575",
-    "date": "21 May 2026, 10:09 AM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Rajul Sandesh",
-    "Phone": "+919741795074",
-    "Job title": "Mrs",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
