@@ -8522,18 +8522,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1629638718322039",
-    "date": "21 May 2026, 01:36 PM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Sunil Jammula",
-    "Phone": "+919945378110",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -10066,42 +10054,6 @@
     "Phone": "+919972349785",
     "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
     "What are you looking for your child?": "Motor development support",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1456974882373082",
-    "date": "21 May 2026, 01:11 PM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "What are you looking for your child?": "Developmental support",
-    "Name": "Jyothi",
-    "Phone": "+919538197721",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2422488628213953",
-    "date": "21 May 2026, 12:09 PM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "Name": "Anarghya N Srikanth",
-    "Phone": "+919620478548",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "What are you looking for your child?": "Motor development support",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1892433754808383",
-    "date": "21 May 2026, 12:05 PM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120246434949010425",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Sneha",
-    "Phone": "6366423839",
     "_form_name": "Aquatherapy Kids — DYU Clinic",
     "_treatment": "Aquatherapy"
   },
@@ -17097,20 +17049,6 @@
     "_treatment": "Emsculpt Neo"
   },
   {
-    "id": "1015132704288170",
-    "date": "21 May 2026, 01:16 PM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Not sure – Need consultation",
-    "When are you looking to start treatment?": "Within a month",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Shiva",
-    "Phone": "+919611100318",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
     "id": "1647043116379179",
     "date": "19 Jun 2026, 04:49 PM",
     "date_ts": "2026-06-19",
@@ -19460,32 +19398,6 @@
     "First name": "Swapna manju",
     "Phone": "+918095346468",
     "Job title": "Makeup artist",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1646930989876750",
-    "date": "21 May 2026, 01:44 PM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120244611187610425",
-    "First name": "JYOTHIS",
-    "Phone": "+918688066287",
-    "Job title": "Founder, Director, CEO",
-    "Baby's age": "7-10 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "2798177353870296",
-    "date": "21 May 2026, 12:58 PM",
-    "date_ts": "2026-05-21",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "santu",
-    "Phone": "+919686152533",
-    "Job title": "Ueueh",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
