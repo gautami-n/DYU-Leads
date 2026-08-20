@@ -8382,18 +8382,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "945405378478954",
-    "date": "22 May 2026, 02:07 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Stress management & wellness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Shubhra Saxena",
-    "Phone": "+917503637594",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -14443,6 +14431,20 @@
     "_treatment": "Emsella"
   },
   {
+    "id": "1560896131648825",
+    "date": "20 Aug 2026, 02:19 PM",
+    "date_ts": "2026-08-20",
+    "_campaign_id": "120242744570510425",
+    "Name": "binu bal shetty",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "Yes",
+    "Are you comfortable visiting our clinic in HSR Layout?": "No",
+    "Phone": "+919538383159",
+    "When are you looking to start treatment?": "Within a month",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
     "id": "1585385109909848",
     "date": "20 Aug 2026, 09:02 AM",
     "date_ts": "2026-08-20",
@@ -16525,20 +16527,6 @@
     "Which area would you like to target?": "Buttocks",
     "When are you looking to start treatment?": "Immediately",
     "Are you comfortable visiting our clinic in HSR Layout?": "No",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "994543486397274",
-    "date": "22 May 2026, 02:25 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Thighs",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Harshitha",
-    "Phone": "+917760955805",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   },
