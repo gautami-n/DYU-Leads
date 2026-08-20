@@ -8406,18 +8406,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "4305187523144139",
-    "date": "22 May 2026, 11:05 AM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120246434949010425",
-    "Name": "Pinkey",
-    "Phone": "+919916462069",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -9841,18 +9829,6 @@
     "Name": "Nezrin Nazer",
     "Phone": "+918547032539",
     "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "What are you looking for your child?": "General fitness & fun",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2065984650628021",
-    "date": "22 May 2026, 10:14 AM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120246434949010425",
-    "Name": "Shraddha",
-    "Phone": "+9986641542",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
     "What are you looking for your child?": "General fitness & fun",
     "_form_name": "Aquatherapy Kids — DYU Clinic",
     "_treatment": "Aquatherapy"
@@ -14514,17 +14490,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1269759338478461",
-    "date": "22 May 2026, 11:03 AM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120240844142230425",
-    "Name": "Arunava Chatterjee",
-    "Phone": "+919702395151",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "1585385109909848",
     "date": "20 Aug 2026, 09:02 AM",
     "date_ts": "2026-08-20",
@@ -18832,32 +18797,6 @@
     "First name": "Prapti",
     "Phone": "+919326159575",
     "Job title": "Owner",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "26657594327273229",
-    "date": "22 May 2026, 11:10 AM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120244611187610425",
-    "First name": "Chethan kumar",
-    "Phone": "+919739797394",
-    "Job title": "PHOTOGRAPHER",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next month",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1640287337199958",
-    "date": "22 May 2026, 10:08 AM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120244611187610425",
-    "First name": "Manju",
-    "Phone": "+918123073641",
-    "Job title": "completed graduation",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
