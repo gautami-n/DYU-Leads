@@ -9714,30 +9714,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "948583328180688",
-    "date": "22 May 2026, 08:41 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120246434949010425",
-    "Name": "Nithin Veerappa",
-    "Phone": "+919945333119",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "What are you looking for your child?": "General fitness & fun",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1643762853595929",
-    "date": "22 May 2026, 07:56 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120246434949010425",
-    "Name": "NehaPrince",
-    "Phone": "+919035483332",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "What are you looking for your child?": "Motor development support",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1751735196276171",
     "date": "01 Aug 2026, 02:41 PM",
     "date_ts": "2026-08-01",
@@ -12486,30 +12462,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "1699285387770773",
-    "date": "22 May 2026, 09:19 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "Name": "William Dsilva",
-    "Phone": "+918050441503",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "981883874599205",
-    "date": "22 May 2026, 08:51 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120244384544260425",
-    "Name": "Gopal Kayal",
-    "Phone": "+917980450483",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -13309,28 +13261,6 @@
     "What concerns are you facing?": "Weak pelvic/core muscles",
     "Name": "Hema",
     "Phone": "+917979914284",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1351412716878405",
-    "date": "22 May 2026, 09:38 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "radhamma",
-    "Phone": "+919740430839",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "2048706836523071",
-    "date": "22 May 2026, 07:57 PM",
-    "date_ts": "2026-05-22",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Menopause-related discomfort",
-    "Name": "Sairaunnisa",
-    "Phone": "+917795421718",
     "_form_name": "Emsella women - April",
     "_treatment": "Emsella"
   },
