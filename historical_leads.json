@@ -12446,30 +12446,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "1298220071846335",
-    "date": "23 May 2026, 01:00 PM",
-    "date_ts": "2026-05-23",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "Sadamani Sk",
-    "Phone": "+918167545289",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1529430038579181",
-    "date": "23 May 2026, 12:33 PM",
-    "date_ts": "2026-05-23",
-    "_campaign_id": "120244384544260425",
-    "Name": "Selva Priya",
-    "Phone": "+919148434704",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -16273,20 +16249,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "No",
     "Name": "Laxminarayan Naik",
     "Phone": "+917760780763",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1400155435466739",
-    "date": "23 May 2026, 12:41 PM",
-    "date_ts": "2026-05-23",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Priyanshu Sharan",
-    "Phone": "+919939228900",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   },
