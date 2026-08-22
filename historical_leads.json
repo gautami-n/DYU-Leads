@@ -8436,18 +8436,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "863304913477243",
-    "date": "24 May 2026, 11:51 AM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Ganesh",
-    "Phone": "+919916386827",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -9776,18 +9764,6 @@
     "What are you looking for your child?": "General fitness & fun",
     "Phone": "+919880124864",
     "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2194175781386610",
-    "date": "24 May 2026, 01:12 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120246434949010425",
-    "Name": "Leena",
-    "Phone": "+918124526687",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "What are you looking for your child?": "General fitness & fun",
     "_form_name": "Aquatherapy Kids — DYU Clinic",
     "_treatment": "Aquatherapy"
   },
@@ -12380,30 +12356,6 @@
     "Which area would you like treat?": "Face tightening & lifting",
     "Name": "Parimalsingha Parimalsinghs",
     "Phone": "+916352352534",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "990674556777616",
-    "date": "24 May 2026, 12:45 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "General skin rejuvenation",
-    "Name": "Mahesh",
-    "Phone": "+919886852947",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1316742903856008",
-    "date": "24 May 2026, 12:45 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120244384544260425",
-    "Name": "Kishore kumar",
-    "Phone": "+918073691439",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
@@ -16174,20 +16126,6 @@
     "_treatment": "Emsculpt Neo"
   },
   {
-    "id": "1014729661502557",
-    "date": "24 May 2026, 01:32 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Nagendra Dwarakinath",
-    "Phone": "+919019205724",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
     "id": "1647043116379179",
     "date": "19 Jun 2026, 04:49 PM",
     "date_ts": "2026-06-19",
@@ -18212,19 +18150,6 @@
     "Job title": "12 th science student",
     "Baby's age": "3-6 Months",
     "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1711251946712351",
-    "date": "24 May 2026, 12:39 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120244611187610425",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "Phone": "+917563087865",
-    "Baby's age": "7-10 Months",
-    "First name": "Rishikesh",
-    "Job title": "private",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
