@@ -8424,18 +8424,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1902005910428468",
-    "date": "24 May 2026, 05:02 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Name": "Kannur Vyshali",
-    "Phone": "+919901999910",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -13097,17 +13085,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1533773238053158",
-    "date": "24 May 2026, 03:49 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Post-pregnancy changes",
-    "Name": "ayush",
-    "Phone": "+917348957776",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "837962902587636",
     "date": "10 Jul 2026, 11:24 AM",
     "date_ts": "2026-07-10",
@@ -14052,6 +14029,20 @@
     "Phone": "+918139968367",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "2640846692998055",
+    "date": "22 Aug 2026, 05:12 PM",
+    "date_ts": "2026-08-22",
+    "_campaign_id": "120242744570510425",
+    "Have you tried any body contouring treatments before?": "Yes",
+    "Which area would you like to target?": "Abdomen",
+    "When are you looking to start treatment?": "Immediately",
+    "Are you comfortable visiting our clinic in HSR Layout?": "No",
+    "Name": "Dr. HITHAISHREE M",
+    "Phone": "+917619672079",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1855959458708659",
@@ -18124,19 +18115,6 @@
     "First name": "Alfishan",
     "Phone": "+916362064078",
     "Job title": "Business Manager",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "26351249537885569",
-    "date": "24 May 2026, 04:34 PM",
-    "date_ts": "2026-05-24",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next week",
-    "First name": "nehaasfa",
-    "Phone": "+918618289622",
-    "Job title": "Housewife",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
