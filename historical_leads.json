@@ -9638,18 +9638,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1297097358661813",
-    "date": "25 May 2026, 11:26 AM",
-    "date_ts": "2026-05-25",
-    "_campaign_id": "120246434949010425",
-    "Name": "Bharti Akshay",
-    "Phone": "+919284039259",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1751735196276171",
     "date": "01 Aug 2026, 02:41 PM",
     "date_ts": "2026-08-01",
@@ -12202,18 +12190,6 @@
     "Which area would you like treat?": "Face tightening & lifting",
     "Name": "Manu Prasad Acharya",
     "Phone": "+919743350655",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "2041686490081634",
-    "date": "25 May 2026, 11:06 AM",
-    "date_ts": "2026-05-25",
-    "_campaign_id": "120244384544260425",
-    "Name": "Krishnappa SR Kris",
-    "Phone": "+918861775188",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Body tightening / cellulite / stretch marks",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
@@ -17766,32 +17742,6 @@
     "First name": "Rohithshetty",
     "Phone": "+917349716579",
     "Job title": "Bus",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1509706983927777",
-    "date": "25 May 2026, 11:44 AM",
-    "date_ts": "2026-05-25",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Tabrez",
-    "Phone": "+918660809056",
-    "Job title": "Freelance fashion Photographer",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "2175431933291945",
-    "date": "25 May 2026, 10:53 AM",
-    "date_ts": "2026-05-25",
-    "_campaign_id": "120244611187610425",
-    "First name": "Manjunath",
-    "Phone": "+919916314080",
-    "Job title": "Software Test Engineer",
-    "Baby's age": "7-10 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
