@@ -9047,18 +9047,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1502937704244411",
-    "date": "12 Jun 2026, 04:08 PM",
-    "date_ts": "2026-06-12",
-    "_campaign_id": "120246434949010425",
-    "Name": "Anam Hayat",
-    "Phone": "+917044584606",
-    "What are you looking for your child?": "Motor development support",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1112135284571820",
     "date": "10 Sep 2026, 07:02 AM",
     "date_ts": "2026-09-10",
@@ -11495,30 +11483,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "2634173927347466",
-    "date": "12 Jun 2026, 04:17 PM",
-    "date_ts": "2026-06-12",
-    "_campaign_id": "120244384544260425",
-    "Name": "Hanumanth Raj  | Hoskote",
-    "Phone": "+919980480139",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "879208205223282",
-    "date": "12 Jun 2026, 02:39 PM",
-    "date_ts": "2026-06-12",
-    "_campaign_id": "120244384544260425",
-    "Name": "Navin Parakh",
-    "Phone": "+919916502741",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -12135,17 +12099,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1618513219248476",
-    "date": "12 Jun 2026, 06:07 PM",
-    "date_ts": "2026-06-12",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "Sindhu Nair",
-    "Phone": "+919742801460",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "837962902587636",
     "date": "10 Jul 2026, 11:24 AM",
     "date_ts": "2026-07-10",
@@ -12740,15 +12693,18 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1600570178106125",
-    "date": "12 Jun 2026, 03:13 PM",
-    "date_ts": "2026-06-12",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Post-surgery or recovery support",
-    "Name": "anand8050",
-    "Phone": "+918050220988",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
+    "id": "1537395878403374",
+    "date": "10 Sep 2026, 05:46 PM",
+    "date_ts": "2026-09-10",
+    "_campaign_id": "120242744570510425",
+    "Name": "Joydeep Mondal",
+    "Phone": "+919902603698",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Just exploring",
+    "Are you comfortable visiting our clinic in HSR Layout?": "No",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1989140028416952",
@@ -14791,20 +14747,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "Reena",
     "Phone": "+918746843910",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1709683496740593",
-    "date": "12 Jun 2026, 02:42 PM",
-    "date_ts": "2026-06-12",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "Yes",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Sambhu Sambhu",
-    "Phone": "+917975608157",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   },
