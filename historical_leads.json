@@ -1639,6 +1639,20 @@
     "_treatment": "Emsella"
   },
   {
+    "id": "1638663361295541",
+    "date": "13 Sep 2026, 09:58 AM",
+    "date_ts": "2026-09-13",
+    "_campaign_id": "120244611187610425",
+    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
+    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
+    "Name": "Karthika Karu",
+    "What is your baby's age?": "3-6 Months",
+    "When would you like to visit?": "Next Week",
+    "Phone": "+919663484180",
+    "_form_name": "Baby Spa Jun 2026 OTP-copy",
+    "_treatment": "Baby Spa"
+  },
+  {
     "id": "1587639326102027",
     "date": "12 Sep 2026, 05:01 PM",
     "date_ts": "2026-09-12",
@@ -8715,6 +8729,42 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "1735734160982311",
+    "date": "13 Sep 2026, 12:24 PM",
+    "date_ts": "2026-09-13",
+    "_campaign_id": "120244384544260425",
+    "Name": "Bala Krishna",
+    "Phone": "+919741755378",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "2009515223065928",
+    "date": "13 Sep 2026, 02:14 AM",
+    "date_ts": "2026-09-13",
+    "_campaign_id": "120244384544260425",
+    "Have you had any skin treatment done before?": "No",
+    "Which area would you like treat?": "Acne scars & texture improvement",
+    "Name": "Kotresh B s",
+    "Phone": "+919353370659",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "2081310352744826",
+    "date": "12 Sep 2026, 11:09 PM",
+    "date_ts": "2026-09-12",
+    "_campaign_id": "120244384544260425",
+    "Have you had any skin treatment done before?": "No",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "Name": "Anthony Lucas",
+    "Phone": "+917019841225",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
     "id": "1720303165717331",
     "date": "12 Sep 2026, 03:04 PM",
     "date_ts": "2026-09-12",
@@ -12232,6 +12282,20 @@
     "Phone": "+919632534239",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "1650408956507640",
+    "date": "13 Sep 2026, 09:27 AM",
+    "date_ts": "2026-09-13",
+    "_campaign_id": "120242744570510425",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "No",
+    "When are you looking to start treatment?": "Immediately",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Name": "Gagan",
+    "Phone": "+919538521842",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "951050224708887",
