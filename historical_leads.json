@@ -8757,6 +8757,30 @@
     "_treatment": "Aquatherapy"
   },
   {
+    "id": "1099108169250067",
+    "date": "13 Sep 2026, 10:38 PM",
+    "date_ts": "2026-09-13",
+    "_campaign_id": "120244384544260425",
+    "Name": "Ramu Yadab Yadab",
+    "Phone": "+919845894079",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "1770041954324432",
+    "date": "13 Sep 2026, 07:56 PM",
+    "date_ts": "2026-09-13",
+    "_campaign_id": "120244384544260425",
+    "Have you had any skin treatment done before?": "Yes",
+    "Which area would you like treat?": "Face tightening & lifting",
+    "Name": "Dhevarashetty sathish",
+    "Phone": "+919390941833",
+    "_form_name": "Morpheus 8- April",
+    "_treatment": "Morpheus8"
+  },
+  {
     "id": "1377551277387757",
     "date": "13 Sep 2026, 04:56 PM",
     "date_ts": "2026-09-13",
@@ -12322,6 +12346,20 @@
     "Phone": "+919632534239",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
+  },
+  {
+    "id": "1798580191569970",
+    "date": "13 Sep 2026, 10:13 PM",
+    "date_ts": "2026-09-13",
+    "_campaign_id": "120242744570510425",
+    "Name": "Abdul Khader",
+    "Which area would you like to target?": "Abdomen",
+    "Have you tried any body contouring treatments before?": "No",
+    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
+    "Phone": "+919900108022",
+    "When are you looking to start treatment?": "Immediately",
+    "_form_name": "Emsculpt- March",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1320884939948908",
