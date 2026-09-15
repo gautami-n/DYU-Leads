@@ -8305,66 +8305,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1546908030160454",
-    "date": "17 Jun 2026, 11:55 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Name": "Sangeetha Padmaraj",
-    "Phone": "+918722146659",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2416404138865750",
-    "date": "17 Jun 2026, 11:39 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Anita",
-    "Phone": "+919632263017",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1736274941058851",
-    "date": "17 Jun 2026, 10:09 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120246434949010425",
-    "Name": "Clinton Mario",
-    "Phone": "+919538964321",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1280931243873748",
-    "date": "17 Jun 2026, 09:27 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120246434949010425",
-    "Name": "Asha Divakar",
-    "Phone": "+919900993311",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "992798426999603",
-    "date": "17 Jun 2026, 08:50 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "spanchi",
-    "Phone": "+919176782404",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -10813,30 +10753,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "27880211288249500",
-    "date": "17 Jun 2026, 11:40 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "Krishnan U",
-    "Phone": "+919809024520",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "804870149316923",
-    "date": "17 Jun 2026, 10:33 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "Name": "7479874487",
-    "Phone": "+917479874487",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -11845,28 +11761,6 @@
     "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
     "Name": "Rohit Jain",
     "Phone": "+917349415777",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "876617968820424",
-    "date": "17 Jun 2026, 09:56 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "Babu  123",
-    "Phone": "+917353661520",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "986916054205945",
-    "date": "17 Jun 2026, 09:28 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "Name": "Suresh Pabbathi",
-    "Phone": "+919066517887",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
@@ -14013,20 +13907,6 @@
     "_treatment": "Emsculpt Neo"
   },
   {
-    "id": "1481332493743445",
-    "date": "17 Jun 2026, 09:07 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Not sure – Need consultation",
-    "When are you looking to start treatment?": "Within 2 weeks",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Dr S Kokila",
-    "Phone": "+918660782382",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
     "id": "1647043116379179",
     "date": "19 Jun 2026, 04:49 PM",
     "date_ts": "2026-06-19",
@@ -14179,32 +14059,6 @@
     "First name": "Augustine",
     "Phone": "+919535056865",
     "Job title": "Bpo",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "2187214382129842",
-    "date": "17 Jun 2026, 11:31 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "As soon as possible",
-    "First name": "Sudhakar",
-    "Phone": "+919019303371",
-    "Job title": "Facility Manager",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "852669294168257",
-    "date": "17 Jun 2026, 11:24 PM",
-    "date_ts": "2026-06-17",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "3-6 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "First name": "Rakesh",
-    "Phone": "+918951494160",
-    "Job title": "Happy",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
