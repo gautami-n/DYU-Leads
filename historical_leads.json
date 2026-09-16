@@ -8173,30 +8173,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "2443180679496185",
-    "date": "19 Jun 2026, 12:35 AM",
-    "date_ts": "2026-06-19",
-    "_campaign_id": "120246434949010425",
-    "Name": "Henna",
-    "Phone": "+919844111230",
-    "What's bringing you to aquatherapy?": "Post-surgery / Injury rehabilitation",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "841166115455948",
-    "date": "18 Jun 2026, 08:26 PM",
-    "date_ts": "2026-06-18",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Name": "Vanshika",
-    "Phone": "+918618228169",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2756018984782364",
     "date": "19 Jun 2026, 12:25 PM",
     "date_ts": "2026-06-19",
@@ -8253,30 +8229,6 @@
     "Phone": "+916364366819",
     "What are you looking for your child?": "General fitness & fun",
     "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1099209633286580",
-    "date": "19 Jun 2026, 12:31 AM",
-    "date_ts": "2026-06-19",
-    "_campaign_id": "120246434949010425",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Karthik P",
-    "Phone": "+918553883212",
-    "_form_name": "Aquatherapy Kids — DYU Clinic",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "864686113365432",
-    "date": "18 Jun 2026, 09:30 PM",
-    "date_ts": "2026-06-18",
-    "_campaign_id": "120246434949010425",
-    "Name": "Uma Kavya",
-    "What are you looking for your child?": "Developmental support",
-    "Phone": "+919481634384",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
     "_form_name": "Aquatherapy Kids — DYU Clinic",
     "_treatment": "Aquatherapy"
   },
@@ -10533,30 +10485,6 @@
     "Have you had any skin treatment done before?": "No",
     "Which area would you like treat?": "General skin rejuvenation",
     "Phone": "+919008150951",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1059808423063412",
-    "date": "18 Jun 2026, 08:22 PM",
-    "date_ts": "2026-06-18",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "official d charan",
-    "Phone": "+918085853965",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1491175583024777",
-    "date": "18 Jun 2026, 08:14 PM",
-    "date_ts": "2026-06-18",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "Name": "Monish Raj",
-    "Phone": "+917200396011",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
@@ -13721,19 +13649,6 @@
     "Job title": "Vidit",
     "Baby's age": "0-2 Months",
     "How soon would you like to schedule a visit or appointment?": "Within the next two weeks",
-    "_form_name": "Baby Spa in Bangalore-copy-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "830748719894107",
-    "date": "18 Jun 2026, 10:02 PM",
-    "date_ts": "2026-06-18",
-    "_campaign_id": "120244611187610425",
-    "Baby's age": "0-2 Months",
-    "How soon would you like to schedule a visit or appointment?": "Within the next week",
-    "First name": "Aksaif",
-    "Phone": "+918686931175",
-    "Job title": "Electration",
     "_form_name": "Baby Spa in Bangalore-copy-copy",
     "_treatment": "Baby Spa"
   }
