@@ -4369,20 +4369,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "1070510652289304",
-    "date": "20 Jun 2026, 10:21 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Name": "Kiran Prakash",
-    "What is your baby's age?": "0-3 Months",
-    "When would you like to visit?": "Within 2 Days",
-    "Phone": "+919019047167",
-    "_form_name": "Baby Spa Jun 2026 OTP",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -10844,17 +10830,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "2090575904857821",
-    "date": "20 Jun 2026, 09:40 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "Name": "basavaraj kambar",
-    "Phone": "+919019086125",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "1726463808467523",
     "date": "14 Sep 2026, 07:06 AM",
     "date_ts": "2026-09-14",
@@ -12895,20 +12870,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "Haleema Sajeda",
     "Phone": "+919840438139",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1012946364457029",
-    "date": "20 Jun 2026, 07:36 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "Yes",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "VishwaKumar Yadav",
-    "Phone": "+916364136047",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
