@@ -3991,20 +3991,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "2080334179212428",
-    "date": "20 Jun 2026, 05:48 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Name": "Chinmayae Shashidhar",
-    "When would you like to visit?": "Next Week",
-    "What is your baby's age?": "3-6 Months",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Phone": "+919731440834",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2225698524857571",
     "date": "05 Jul 2026, 03:16 PM",
     "date_ts": "2026-07-05",
@@ -4393,20 +4379,6 @@
     "What is your baby's age?": "0-3 Months",
     "When would you like to visit?": "Within 2 Days",
     "Phone": "+919019047167",
-    "_form_name": "Baby Spa Jun 2026 OTP",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1543969740512699",
-    "date": "20 Jun 2026, 02:28 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
-    "Name": "Ranjith S",
-    "What is your baby's age?": "1-2 Years",
-    "When would you like to visit?": "This Week",
-    "Phone": "+917204166613",
     "_form_name": "Baby Spa Jun 2026 OTP",
     "_treatment": "Baby Spa"
   },
@@ -5799,18 +5771,6 @@
     "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
     "Name": "Amna Mariyam",
     "Phone": "+918448625620",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2836344273392773",
-    "date": "20 Jun 2026, 04:32 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120246434949010425",
-    "Name": "Drishya Purushothaman",
-    "Phone": "+919674682926",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
     "_treatment": "Aquatherapy"
   },
@@ -7815,54 +7775,6 @@
     "Phone": "+919945238100",
     "What's bringing you to aquatherapy?": "Weight loss & fitness",
     "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1010345831408805",
-    "date": "20 Jun 2026, 07:18 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120246434949010425",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Name": "Shankari Kumaran",
-    "Phone": "+919972333266",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1216660360501798",
-    "date": "20 Jun 2026, 04:34 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Jaishree",
-    "Phone": "+919845445351",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2239905193414128",
-    "date": "20 Jun 2026, 03:27 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Praveen",
-    "Phone": "+919884463638",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1222600647593676",
-    "date": "20 Jun 2026, 02:55 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120246434949010425",
-    "Name": "Garima",
-    "Phone": "+919901599009",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
@@ -10939,17 +10851,6 @@
     "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
     "Name": "basavaraj kambar",
     "Phone": "+919019086125",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1776780547027403",
-    "date": "20 Jun 2026, 05:19 PM",
-    "date_ts": "2026-06-20",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Weak pelvic/core muscles",
-    "Name": "beema__naik un in",
-    "Phone": "+919901654669",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
