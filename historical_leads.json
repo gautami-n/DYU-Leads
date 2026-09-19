@@ -7653,30 +7653,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "3109506449252515",
-    "date": "21 Jun 2026, 05:47 PM",
-    "date_ts": "2026-06-21",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Prajakta Anil Kelkar",
-    "Phone": "+919970327674",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1338895168190257",
-    "date": "21 Jun 2026, 04:58 PM",
-    "date_ts": "2026-06-21",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Arathi Suresh",
-    "Phone": "+919916339094",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "2242956999828846",
     "date": "14 Sep 2026, 09:39 AM",
     "date_ts": "2026-09-14",
@@ -9833,18 +9809,6 @@
     "Which area would you like treat?": "Acne scars & texture improvement",
     "Name": "Santhosh Santosh",
     "Phone": "+919606137510",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "2181285156045589",
-    "date": "21 Jun 2026, 02:53 PM",
-    "date_ts": "2026-06-21",
-    "_campaign_id": "120244384544260425",
-    "Name": "Amit Shyam Vadnalwar",
-    "Phone": "+917259770403",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
@@ -12716,20 +12680,6 @@
     "Have you tried any body contouring treatments before?": "No",
     "When are you looking to start treatment?": "Within 2 weeks",
     "Are you comfortable visiting our clinic in HSR Layout?": "No",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1993493018017978",
-    "date": "21 Jun 2026, 02:11 PM",
-    "date_ts": "2026-06-21",
-    "_campaign_id": "120242744570510425",
-    "Name": "Harshal Pardeshi",
-    "Phone": "+918861003851",
-    "Which area would you like to target?": "Abdomen",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Within 2 weeks",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
