@@ -4103,20 +4103,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "1524047919189215",
-    "date": "27 Jun 2026, 10:36 PM",
-    "date_ts": "2026-06-27",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "Yes",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
-    "Name": "Naveen Gowda",
-    "What is your baby's age?": "0-3 Months",
-    "When would you like to visit?": "Today",
-    "Phone": "+918123498145",
-    "_form_name": "Baby Spa Jun 2026 OTP",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -6789,18 +6775,6 @@
     "What's bringing you to aquatherapy?": "Weight loss & fitness",
     "Phone": "+919900605344",
     "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1028414453209404",
-    "date": "27 Jun 2026, 10:40 PM",
-    "date_ts": "2026-06-27",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "sk.punithavathy",
-    "Phone": "+919341729690",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
@@ -9538,17 +9512,6 @@
     "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
     "Name": "shakarappa shantageri",
     "Phone": "+919663025690",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1561322222450560",
-    "date": "27 Jun 2026, 09:36 PM",
-    "date_ts": "2026-06-27",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Post-surgery or recovery support",
-    "Name": "Radhe Shukla",
-    "Phone": "+918090392517",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
