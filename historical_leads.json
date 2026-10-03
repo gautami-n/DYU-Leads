@@ -3991,20 +3991,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "1045524501498688",
-    "date": "05 Jul 2026, 03:34 AM",
-    "date_ts": "2026-07-05",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Name": "Neethi",
-    "What is your baby's age?": "3-6 Months",
-    "When would you like to visit?": "Next Week",
-    "Phone": "+917010420953",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2225698524857571",
     "date": "05 Jul 2026, 03:16 PM",
     "date_ts": "2026-07-05",
@@ -4015,20 +4001,6 @@
     "What is your baby's age?": "0-3 Months",
     "When would you like to visit?": "Within 2 Days",
     "Phone": "+919380437273",
-    "_form_name": "Baby Spa Jun 2026 OTP",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "27648191964833185",
-    "date": "05 Jul 2026, 10:33 AM",
-    "date_ts": "2026-07-05",
-    "_campaign_id": "120244611187610425",
-    "Name": "Chethan Kumar",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "What is your baby's age?": "0-3 Months",
-    "Phone": "+919739797394",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
-    "When would you like to visit?": "Next Week",
     "_form_name": "Baby Spa Jun 2026 OTP",
     "_treatment": "Baby Spa"
   },
@@ -5013,30 +4985,6 @@
     "Phone": "+918904630461",
     "What are you looking for your child?": "Developmental support",
     "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1021479710478069",
-    "date": "05 Jul 2026, 09:45 AM",
-    "date_ts": "2026-07-05",
-    "_campaign_id": "120246434949010425",
-    "What are you looking for your child?": "Developmental support",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Ramya Krishna Utukuru",
-    "Phone": "+918121533089",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1662464658165948",
-    "date": "05 Jul 2026, 09:10 AM",
-    "date_ts": "2026-07-05",
-    "_campaign_id": "120246434949010425",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Mohit Kumar",
-    "Phone": "+918851908431",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
     "_treatment": "Aquatherapy"
   },
@@ -8936,17 +8884,6 @@
     "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
     "Name": "Harjeet Saini",
     "Phone": "+918978087761",
-    "_form_name": "Emsella, men - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1369151088464244",
-    "date": "05 Jul 2026, 01:44 AM",
-    "date_ts": "2026-07-05",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Premature Ejaculation/ Erectile Dysfunction",
-    "Name": "Dilip Kumar",
-    "Phone": "+919980458376",
     "_form_name": "Emsella, men - April",
     "_treatment": "Emsella"
   },
