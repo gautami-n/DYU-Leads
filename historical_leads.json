@@ -3907,20 +3907,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "1415060447129868",
-    "date": "08 Jul 2026, 01:54 PM",
-    "date_ts": "2026-07-08",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Name": "Sneha",
-    "When would you like to visit?": "This Week",
-    "What is your baby's age?": "3-6 Months",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
-    "Phone": "+919880308605",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -4793,18 +4779,6 @@
     "Are you comfortable travelling to HSR Layout?": "I'd need to check",
     "Name": "Mansi Shah",
     "Phone": "+919742356250",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2435649263599723",
-    "date": "08 Jul 2026, 10:54 AM",
-    "date_ts": "2026-07-08",
-    "_campaign_id": "120246434949010425",
-    "Name": "Lata Lilawat",
-    "Phone": "+917073694289",
-    "What are you looking for your child?": "Motor development support",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
     "_treatment": "Aquatherapy"
   },
@@ -8338,17 +8312,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1384855813546662",
-    "date": "08 Jul 2026, 08:13 AM",
-    "date_ts": "2026-07-08",
-    "_campaign_id": "120240844142230425",
-    "Name": "Sushma Kiran",
-    "Phone": "+919845488803",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "837962902587636",
     "date": "10 Jul 2026, 11:24 AM",
     "date_ts": "2026-07-10",
@@ -10114,20 +10077,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "Vinay Lakkimarad",
     "Phone": "+919611563731",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1019204637369031",
-    "date": "08 Jul 2026, 10:22 AM",
-    "date_ts": "2026-07-08",
-    "_campaign_id": "120242744570510425",
-    "Name": "dr Swetha. smiley queen",
-    "Phone": "+919886127643",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
