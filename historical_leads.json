@@ -6079,18 +6079,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1023931536889001",
-    "date": "08 Jul 2026, 04:33 PM",
-    "date_ts": "2026-07-08",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Venkataraman",
-    "Phone": "+919482580891",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1078683274778427",
     "date": "23 Sep 2026, 12:23 AM",
     "date_ts": "2026-09-23",
@@ -10049,34 +10037,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "Dhanush Kumar S",
     "Phone": "+919538452530",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1368878962006598",
-    "date": "08 Jul 2026, 09:32 PM",
-    "date_ts": "2026-07-08",
-    "_campaign_id": "120242744570510425",
-    "Which area would you like to target?": "Not sure – Need consultation",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Just exploring",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "S B Krishna",
-    "Phone": "+917338726275",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "894782543093722",
-    "date": "08 Jul 2026, 05:56 PM",
-    "date_ts": "2026-07-08",
-    "_campaign_id": "120242744570510425",
-    "Which area would you like to target?": "Not sure – Need consultation",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Within a month",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Vinay Lakkimarad",
-    "Phone": "+919611563731",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
