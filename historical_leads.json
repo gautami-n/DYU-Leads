@@ -3837,20 +3837,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "4338490139699830",
-    "date": "09 Jul 2026, 10:03 PM",
-    "date_ts": "2026-07-09",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "Yes",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Name": "DIVITH H",
-    "What is your baby's age?": "0-3 Months",
-    "When would you like to visit?": "This Week",
-    "Phone": "+919632978559",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -5951,42 +5937,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "2277469493061033",
-    "date": "09 Jul 2026, 10:47 PM",
-    "date_ts": "2026-07-09",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Veena Kothari",
-    "Phone": "+919591012847",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2512133485899626",
-    "date": "09 Jul 2026, 09:05 PM",
-    "date_ts": "2026-07-09",
-    "_campaign_id": "120246434949010425",
-    "Name": "Vaishnavi Kidambi",
-    "Phone": "+919731641839",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1729697261561208",
-    "date": "09 Jul 2026, 05:12 PM",
-    "date_ts": "2026-07-09",
-    "_campaign_id": "120246434949010425",
-    "Name": "Nainy Ashwani Katyal",
-    "Phone": "+918826408929",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1078683274778427",
     "date": "23 Sep 2026, 12:23 AM",
     "date_ts": "2026-09-23",
@@ -7795,18 +7745,6 @@
     "Which area would you like treat?": "Acne scars & texture improvement",
     "Name": "Rawkey",
     "Phone": "+918884431340",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1068766262488666",
-    "date": "09 Jul 2026, 07:38 PM",
-    "date_ts": "2026-07-09",
-    "_campaign_id": "120244384544260425",
-    "Name": "Rajashekhar B Rodagi",
-    "Phone": "+919964767137",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Acne scars & texture improvement",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
