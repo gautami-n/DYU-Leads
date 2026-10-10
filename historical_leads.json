@@ -4549,18 +4549,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1568829798185222",
-    "date": "12 Jul 2026, 07:52 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120246434949010425",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Rethin KR",
-    "Phone": "+917349432141",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1055889447146928",
     "date": "09 Aug 2026, 10:07 AM",
     "date_ts": "2026-08-09",
@@ -5577,66 +5565,6 @@
     "Are you comfortable travelling to HSR Layout?": "I'd need to check",
     "Name": "archana",
     "Phone": "+919986369622",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1882266792732998",
-    "date": "12 Jul 2026, 09:25 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Karuna Chetan",
-    "Phone": "+919964182382",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1706960523876934",
-    "date": "12 Jul 2026, 09:09 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120246434949010425",
-    "Name": "Shilpa Gangadhar",
-    "Phone": "+919900092089",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1017109671207605",
-    "date": "12 Jul 2026, 08:02 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Vijayalakshmi Sg",
-    "Phone": "+919980934653",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1962621174452677",
-    "date": "12 Jul 2026, 07:10 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Suma Jangamappa",
-    "Phone": "+919902514166",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1036646178864421",
-    "date": "12 Jul 2026, 06:15 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120246434949010425",
-    "Name": "Vandana Sharma",
-    "Phone": "+919686000442",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
@@ -7297,18 +7225,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "1542989214187878",
-    "date": "12 Jul 2026, 09:20 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120244384544260425",
-    "Name": "Naveen Gnk",
-    "Phone": "+919787943415",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -7624,17 +7540,6 @@
     "What concerns are you facing?": "Menopause-related discomfort",
     "Name": "Sharada M",
     "Phone": "+917411727178",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1575577874139500",
-    "date": "12 Jul 2026, 09:26 PM",
-    "date_ts": "2026-07-12",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "Saraswathi",
-    "Phone": "+918884956544",
     "_form_name": "Emsella women - April",
     "_treatment": "Emsella"
   },
