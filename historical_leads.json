@@ -5189,30 +5189,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1559419175714139",
-    "date": "20 Jul 2026, 09:48 PM",
-    "date_ts": "2026-07-20",
-    "_campaign_id": "120246434949010425",
-    "Name": "Asha Niranjan",
-    "Phone": "+919686662124",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1362918788667360",
-    "date": "20 Jul 2026, 08:32 PM",
-    "date_ts": "2026-07-20",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Shilpi Bhuwania",
-    "Phone": "+919886701060",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1078683274778427",
     "date": "23 Sep 2026, 12:23 AM",
     "date_ts": "2026-09-23",
@@ -6701,18 +6677,6 @@
     "_treatment": "Morpheus8"
   },
   {
-    "id": "1053950610543192",
-    "date": "20 Jul 2026, 09:42 PM",
-    "date_ts": "2026-07-20",
-    "_campaign_id": "120244384544260425",
-    "Name": "Kanjharaj M",
-    "Phone": "+919382377639",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
     "id": "1546932850217849",
     "date": "24 Jul 2026, 10:23 PM",
     "date_ts": "2026-07-24",
@@ -6830,28 +6794,6 @@
     "What concerns are you facing?": "Menopause-related discomfort",
     "Name": "vijaya",
     "Phone": "+918073339218",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1700148407699206",
-    "date": "20 Jul 2026, 10:25 PM",
-    "date_ts": "2026-07-20",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Menopause-related discomfort",
-    "Name": "Komala",
-    "Phone": "+919148466671",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1004334358895501",
-    "date": "20 Jul 2026, 09:18 PM",
-    "date_ts": "2026-07-20",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "shirintaj0",
-    "Phone": "+919019452557",
     "_form_name": "Emsella women - April",
     "_treatment": "Emsella"
   },
