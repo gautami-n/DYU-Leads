@@ -4206,18 +4206,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1736548734048987",
-    "date": "22 Jul 2026, 10:23 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120246434949010425",
-    "Name": "Twin Scoop",
-    "Phone": "+918095853344",
-    "What are you looking for your child?": "Motor development support",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1055889447146928",
     "date": "09 Aug 2026, 10:07 AM",
     "date_ts": "2026-08-09",
@@ -4790,42 +4778,6 @@
     "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
     "Name": "Padmaja Vaddadi",
     "Phone": "+919591603626",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2335426540323615",
-    "date": "22 Jul 2026, 10:34 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Post-surgery / Injury rehabilitation",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Jayita Bhattacharyya",
-    "Phone": "+919341133781",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "985688514517407",
-    "date": "22 Jul 2026, 09:51 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Teena",
-    "Phone": "+918310873968",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1780189182980609",
-    "date": "22 Jul 2026, 09:26 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "Mamatha Nabhiraj",
-    "Phone": "+919448496370",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
@@ -6255,50 +6207,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1626543948890294",
-    "date": "22 Jul 2026, 11:26 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Menopause-related discomfort",
-    "Name": "Lalithamma",
-    "Phone": "+919480161026",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1679831113291520",
-    "date": "22 Jul 2026, 11:10 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120240844142230425",
-    "Name": "Veena",
-    "Phone": "+919886860227",
-    "What concerns are you facing?": "Weak pelvic/core muscles",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1019678997639516",
-    "date": "22 Jul 2026, 11:04 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "Mallikka",
-    "Phone": "+919980589280",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1595145718797174",
-    "date": "22 Jul 2026, 10:27 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Weak pelvic/core muscles",
-    "Name": "ratna k",
-    "Phone": "+919035821449",
-    "_form_name": "Emsella women - April",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "1384736350310043",
     "date": "23 Sep 2026, 02:23 PM",
     "date_ts": "2026-09-23",
@@ -7723,20 +7631,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "abhinav",
     "Phone": "+917975455788",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1348387176852787",
-    "date": "22 Jul 2026, 09:43 PM",
-    "date_ts": "2026-07-22",
-    "_campaign_id": "120242744570510425",
-    "Which area would you like to target?": "Arms",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Just exploring",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Vikanksh Nath",
-    "Phone": "+918077190988",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
