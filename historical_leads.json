@@ -3614,34 +3614,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "1796905085003920",
-    "date": "23 Jul 2026, 11:46 AM",
-    "date_ts": "2026-07-23",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Name": "Margaret Sorensangbam",
-    "When would you like to visit?": "This Week",
-    "What is your baby's age?": "6-12 Months",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
-    "Phone": "+917005705129",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1020239560717614",
-    "date": "23 Jul 2026, 01:25 AM",
-    "date_ts": "2026-07-23",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Name": "sadiqa banu sm",
-    "What is your baby's age?": "3-6 Months",
-    "When would you like to visit?": "Within 2 Days",
-    "Phone": "+919845748855",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -4190,18 +4162,6 @@
     "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
     "Name": "Gomathi Thamizh",
     "Phone": "+917358733772",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1538964077327383",
-    "date": "23 Jul 2026, 11:18 AM",
-    "date_ts": "2026-07-23",
-    "_campaign_id": "120246434949010425",
-    "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Manashi",
-    "Phone": "+918880205526",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
     "_treatment": "Aquatherapy"
   },
@@ -4766,18 +4726,6 @@
     "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
     "Name": "Rekha",
     "Phone": "+919620702727",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1005466795642740",
-    "date": "23 Jul 2026, 11:31 AM",
-    "date_ts": "2026-07-23",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Padmaja Vaddadi",
-    "Phone": "+919591603626",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
@@ -6156,18 +6104,6 @@
     "_campaign_id": "120244384544260425",
     "Name": "Eshwar Lc Eshwar Lc",
     "Phone": "+919148261567",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "2045800352811395",
-    "date": "23 Jul 2026, 08:59 AM",
-    "date_ts": "2026-07-23",
-    "_campaign_id": "120244384544260425",
-    "Name": "Gangadhara Gangadhara",
-    "Phone": "+917619345374",
     "Have you had any skin treatment done before?": "Yes",
     "Which area would you like treat?": "Face tightening & lifting",
     "_form_name": "Morpheus 8- April",
@@ -7617,20 +7553,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "Bharath Kashyap",
     "Phone": "+917019511588",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "2500118017081480",
-    "date": "23 Jul 2026, 07:33 AM",
-    "date_ts": "2026-07-23",
-    "_campaign_id": "120242744570510425",
-    "Which area would you like to target?": "Not sure – Need consultation",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Just exploring",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "abhinav",
-    "Phone": "+917975455788",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
