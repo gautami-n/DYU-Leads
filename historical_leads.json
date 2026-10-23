@@ -4269,18 +4269,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1062028636283497",
-    "date": "25 Jul 2026, 03:11 PM",
-    "date_ts": "2026-07-25",
-    "_campaign_id": "120246434949010425",
-    "Name": "Sathya priya",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Phone": "+919980821866",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1078683274778427",
     "date": "23 Sep 2026, 12:23 AM",
     "date_ts": "2026-09-23",
@@ -5465,30 +5453,6 @@
     "Phone": "+919986341423",
     "Have you had any skin treatment done before?": "Yes",
     "Which area would you like treat?": "Acne scars & texture improvement",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1721168082369257",
-    "date": "25 Jul 2026, 03:07 PM",
-    "date_ts": "2026-07-25",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "ramuhalba",
-    "Phone": "+918904036274",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1740255427123826",
-    "date": "25 Jul 2026, 02:36 PM",
-    "date_ts": "2026-07-25",
-    "_campaign_id": "120244384544260425",
-    "Name": "Shivanand Hallur",
-    "Phone": "+919740909047",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "General skin rejuvenation",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
