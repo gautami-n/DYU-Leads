@@ -1524,50 +1524,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "2223486365085296",
-    "date": "27 Jul 2026, 07:09 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Post-surgery or recovery support",
-    "Name": "Rampukar Sahni",
-    "Phone": "+918084215187",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1523092349047746",
-    "date": "27 Jul 2026, 06:09 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Post-surgery or recovery support",
-    "Name": "Dwarakesh Ek",
-    "Phone": "+918431939091",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "4446705962233217",
-    "date": "27 Jul 2026, 05:59 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Erectile Dysfunction / Low Stamina",
-    "Name": "Krishna Dodamani",
-    "Phone": "+917259196784",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1461977142643493",
-    "date": "27 Jul 2026, 05:55 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "tamil",
-    "Phone": "+919790145924",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "1764150651534652",
     "date": "23 Sep 2026, 10:54 AM",
     "date_ts": "2026-09-23",
@@ -3150,20 +3106,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "27528015256827402",
-    "date": "27 Jul 2026, 04:59 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Name": "Suraj Anand",
-    "When would you like to visit?": "Next Week",
-    "What is your baby's age?": "1-2 Years",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
-    "Phone": "+919347372727",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -3819,30 +3761,6 @@
     "Name": "Bindhu Simry T",
     "Phone": "+919886235128",
     "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1927054314646802",
-    "date": "27 Jul 2026, 07:08 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Joint pain / Arthritis",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "Name": "Veena Rao",
-    "Phone": "+919986076597",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1651739222560296",
-    "date": "27 Jul 2026, 04:48 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120246434949010425",
-    "Name": "Genelle Keswick",
-    "Phone": "+919820253307",
-    "What's bringing you to aquatherapy?": "Post-surgery / Injury rehabilitation",
     "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
@@ -6152,20 +6070,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "haroon.9900",
     "Phone": "+918073160796",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1017623814502929",
-    "date": "27 Jul 2026, 03:28 PM",
-    "date_ts": "2026-07-27",
-    "_campaign_id": "120242744570510425",
-    "Which area would you like to target?": "Buttocks",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Just exploring",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Sandy Ram",
-    "Phone": "+919886813322",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
