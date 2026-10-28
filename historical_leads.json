@@ -1189,28 +1189,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1443499487587808",
-    "date": "30 Jul 2026, 08:57 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Erectile Dysfunction / Low Stamina",
-    "Name": "Krishna Nayaka",
-    "Phone": "+917795967193",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1372001614864472",
-    "date": "30 Jul 2026, 08:42 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Erectile Dysfunction / Low Stamina",
-    "Name": "ybasavaraj",
-    "Phone": "+918296148673",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "1764150651534652",
     "date": "23 Sep 2026, 10:54 AM",
     "date_ts": "2026-09-23",
@@ -2695,20 +2673,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "1077658017937821",
-    "date": "30 Jul 2026, 04:23 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "Yes, I can travel",
-    "Name": "Harshil",
-    "What is your baby's age?": "1-2 Years",
-    "When would you like to visit?": "Next Week",
-    "Phone": "+918971269149",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -2884,18 +2848,6 @@
     "Name": "Kushal",
     "Phone": "+917022289319",
     "What are you looking for your child?": "General fitness & fun",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "2355551068519117",
-    "date": "30 Jul 2026, 04:34 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120246434949010425",
-    "Name": "Indresh Gowda",
-    "What are you looking for your child?": "Motor development support",
-    "Phone": "+919738255391",
     "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
     "_form_name": "Aquatherapy Kids — DYU Clinic-copy",
     "_treatment": "Aquatherapy"
@@ -3113,30 +3065,6 @@
     "Phone": "+919620774748",
     "What's bringing you to aquatherapy?": "Weight loss & fitness",
     "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "896310736406733",
-    "date": "30 Jul 2026, 10:21 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
-    "Name": "Jyothi ganapathi",
-    "Phone": "+919886390988",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1703488340876437",
-    "date": "30 Jul 2026, 09:25 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120246434949010425",
-    "Name": "Priya",
-    "Phone": "+919566145099",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I can travel",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
@@ -4121,30 +4049,6 @@
     "Phone": "+919731037061",
     "Have you had any skin treatment done before?": "No",
     "Which area would you like treat?": "Face tightening & lifting",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "2506804836457301",
-    "date": "30 Jul 2026, 10:43 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "Vinay Kulkarni",
-    "Phone": "+919108565152",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1405851541425828",
-    "date": "30 Jul 2026, 10:23 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "General skin rejuvenation",
-    "Name": "kanha_kisorilaa55",
-    "Phone": "+917206599867",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
