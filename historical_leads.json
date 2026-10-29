@@ -1145,50 +1145,6 @@
     "_treatment": "Emsella"
   },
   {
-    "id": "1053072820522604",
-    "date": "31 Jul 2026, 10:07 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Erectile Dysfunction / Low Stamina",
-    "Name": "aditya kushwaha 99",
-    "Phone": "+917080767349",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1255760736617324",
-    "date": "31 Jul 2026, 10:02 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Erectile Dysfunction / Low Stamina",
-    "Name": "Nhisar Singh",
-    "Phone": "+916239013813",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "2955444631476756",
-    "date": "31 Jul 2026, 09:54 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Weak pelvic/core muscles",
-    "Name": "priya desai",
-    "Phone": "+91902434613141",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
-    "id": "1623552252690115",
-    "date": "31 Jul 2026, 07:56 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120240844142230425",
-    "What concerns are you facing?": "Leaks when sneezing, laughing, or coughing",
-    "Name": "monu kumar",
-    "Phone": "+916239734943",
-    "_form_name": "Emsella, men - July",
-    "_treatment": "Emsella"
-  },
-  {
     "id": "1764150651534652",
     "date": "23 Sep 2026, 10:54 AM",
     "date_ts": "2026-09-23",
@@ -3019,18 +2975,6 @@
     "_treatment": "Aquatherapy"
   },
   {
-    "id": "1051764497227184",
-    "date": "31 Jul 2026, 08:05 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120246434949010425",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "Name": "roopa",
-    "Phone": "+919740393008",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
     "id": "1078683274778427",
     "date": "23 Sep 2026, 12:23 AM",
     "date_ts": "2026-09-23",
@@ -3951,30 +3895,6 @@
     "Phone": "+919880881249",
     "Have you had any skin treatment done before?": "Yes",
     "Which area would you like treat?": "Acne scars & texture improvement",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "27688695807462165",
-    "date": "31 Jul 2026, 10:46 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "General skin rejuvenation",
-    "Name": "Gouda",
-    "Phone": "+919845976417",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1028846109895238",
-    "date": "31 Jul 2026, 08:33 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Acne scars & texture improvement",
-    "Name": "Lor3nce",
-    "Phone": "+919620225981",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
