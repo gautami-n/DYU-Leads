@@ -2659,20 +2659,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "1522398405766170",
-    "date": "31 Jul 2026, 02:05 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Name": "Sanket Khandekar",
-    "When would you like to visit?": "Next Week",
-    "What is your baby's age?": "0-3 Months",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Phone": "+917744893555",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "2039105593637192",
     "date": "08 Aug 2026, 07:14 PM",
     "date_ts": "2026-08-08",
@@ -3041,30 +3027,6 @@
     "Are you comfortable travelling to HSR Layout?": "I'd need to check",
     "Name": "roopa",
     "Phone": "+919740393008",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1582392623468204",
-    "date": "31 Jul 2026, 12:19 PM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120246434949010425",
-    "Name": "Shweta Jaiman",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Phone": "+917506727218",
-    "Are you comfortable travelling to HSR Layout?": "I'd need to check",
-    "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
-    "_treatment": "Aquatherapy"
-  },
-  {
-    "id": "1034127569469392",
-    "date": "31 Jul 2026, 12:09 AM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120246434949010425",
-    "Name": "Shikha Sinha",
-    "Phone": "+919620774748",
-    "What's bringing you to aquatherapy?": "Weight loss & fitness",
-    "Are you comfortable travelling to HSR Layout?": "Yes, I'm close by",
     "_form_name": "Aquatherapy Adults — DYU Healthcare-copy",
     "_treatment": "Aquatherapy"
   },
@@ -4013,42 +3975,6 @@
     "Which area would you like treat?": "Acne scars & texture improvement",
     "Name": "Lor3nce",
     "Phone": "+919620225981",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "2051450732237206",
-    "date": "31 Jul 2026, 11:57 AM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "m. k. singh",
-    "Phone": "+918112800108",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "26875391502134694",
-    "date": "31 Jul 2026, 08:20 AM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120244384544260425",
-    "Have you had any skin treatment done before?": "Yes",
-    "Which area would you like treat?": "Face tightening & lifting",
-    "Name": "Sani Pingua",
-    "Phone": "+918870498512",
-    "_form_name": "Morpheus 8- April",
-    "_treatment": "Morpheus8"
-  },
-  {
-    "id": "1728585695119573",
-    "date": "30 Jul 2026, 11:34 PM",
-    "date_ts": "2026-07-30",
-    "_campaign_id": "120244384544260425",
-    "Name": "Elumali R",
-    "Phone": "+919731037061",
-    "Have you had any skin treatment done before?": "No",
-    "Which area would you like treat?": "Face tightening & lifting",
     "_form_name": "Morpheus 8- April",
     "_treatment": "Morpheus8"
   },
@@ -5183,34 +5109,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "No",
     "Name": "Manjari Jagadeeswar",
     "Phone": "+918553467825",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "27950265021278612",
-    "date": "31 Jul 2026, 10:56 AM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120242744570510425",
-    "Name": "Mansoor Ali",
-    "Phone": "+919886246786",
-    "Which area would you like to target?": "Abdomen",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1022863217186027",
-    "date": "31 Jul 2026, 07:57 AM",
-    "date_ts": "2026-07-31",
-    "_campaign_id": "120242744570510425",
-    "Name": "Raj singh",
-    "Phone": "+919999879133",
-    "Which area would you like to target?": "Abdomen",
-    "Have you tried any body contouring treatments before?": "No",
-    "When are you looking to start treatment?": "Within 2 weeks",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
