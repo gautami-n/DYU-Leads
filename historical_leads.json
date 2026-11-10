@@ -2328,34 +2328,6 @@
     "_treatment": "Baby Spa"
   },
   {
-    "id": "916388800928619",
-    "date": "12 Aug 2026, 05:08 PM",
-    "date_ts": "2026-08-12",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Name": "Raghavendra Bhat",
-    "When would you like to visit?": "This Week",
-    "What is your baby's age?": "1-2 Years",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Phone": "+919008333858",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
-    "id": "1995420471109717",
-    "date": "12 Aug 2026, 03:08 PM",
-    "date_ts": "2026-08-12",
-    "_campaign_id": "120244611187610425",
-    "Has your baby experienced a Baby Spa or Hydrotherapy before?": "No, first time",
-    "Our Baby Spa is in HSR Layout. Are you comfortable travelling here?": "No, it is too far",
-    "Name": "Monalisha Dey, Call me at 8240564670",
-    "What is your baby's age?": "0-3 Months",
-    "When would you like to visit?": "Next Week",
-    "Phone": "+918240564670",
-    "_form_name": "Baby Spa Jun 2026 OTP-copy",
-    "_treatment": "Baby Spa"
-  },
-  {
     "id": "1078683274778427",
     "date": "23 Sep 2026, 12:23 AM",
     "date_ts": "2026-09-23",
@@ -4046,48 +4018,6 @@
     "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
     "Name": "Kiran Das",
     "Phone": "+917348943379",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "2262233914574018",
-    "date": "12 Aug 2026, 04:37 PM",
-    "date_ts": "2026-08-12",
-    "_campaign_id": "120242744570510425",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Not sure – Need consultation",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "Yes",
-    "Name": "Shubham Jain",
-    "Phone": "+919958986871",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "1799608391178098",
-    "date": "12 Aug 2026, 11:32 AM",
-    "date_ts": "2026-08-12",
-    "_campaign_id": "120242744570510425",
-    "Name": "Rraksith Dalmia",
-    "Phone": "+919538755580",
-    "Have you tried any body contouring treatments before?": "No",
-    "Which area would you like to target?": "Abdomen",
-    "When are you looking to start treatment?": "Immediately",
-    "Are you comfortable visiting our clinic in HSR Layout?": "No",
-    "_form_name": "Emsculpt- March",
-    "_treatment": "Emsculpt Neo"
-  },
-  {
-    "id": "4607533909487502",
-    "date": "12 Aug 2026, 04:51 AM",
-    "date_ts": "2026-08-12",
-    "_campaign_id": "120242744570510425",
-    "Which area would you like to target?": "Not sure – Need consultation",
-    "Have you tried any body contouring treatments before?": "Yes",
-    "When are you looking to start treatment?": "Just exploring",
-    "Are you comfortable visiting our clinic in HSR Layout?": "No",
-    "Name": "Aalia Arshi",
-    "Phone": "+919663106142",
     "_form_name": "Emsculpt- March",
     "_treatment": "Emsculpt Neo"
   }
