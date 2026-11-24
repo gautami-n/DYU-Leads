@@ -16,28 +16,37 @@ HIST_FILE     = SCRIPT_DIR / "historical_leads.json"
 DASH_OUT      = SCRIPT_DIR / "index.html"
 
 COLORS = {
-    "Emsella":      "#1a5276",
-    "Emsculpt Neo": "#784212",
-    "Baby Spa":     "#6c3483",
-    "LHR":          "#117a65",
-    "Morpheus8":    "#943126",
-    "IUI":          "#0e6655",
-    "IVF":          "#1a6b4a",
-    "B1G1":         "#6b4a1a",
-    "Aquatherapy":  "#1a7a8a",
+    "Fotona 4D":         "#7d3c98",
+    "Morpheus8":         "#943126",
+    "Emsculpt Neo":      "#784212",
+    "Intimate Wellness": "#b03a64",
+    "GFC Hair Therapy":  "#1e8449",
+    "Skin Booster":      "#2e86c1",
+    "Emsella":           "#1a5276",
+    "Baby Spa":          "#6c3483",
+    "LHR":               "#117a65",
+    "IUI":               "#0e6655",
+    "IVF":               "#1a6b4a",
+    "B1G1":              "#6b4a1a",
+    "Aquatherapy":       "#1a7a8a",
 }
 
-# Each campaign: display name, keywords to match against form names
+# Each campaign: display name, keywords matched against form AND campaign names.
+# Order = tab order and match priority (first match wins).
 CAMPAIGNS = [
-    {"name": "Emsella",      "keywords": ["emsella", "kegel"]},
-    {"name": "Emsculpt Neo", "keywords": ["emsculpt", "emscutpt", "neo", "hifem"]},
-    {"name": "Baby Spa",     "keywords": ["baby", "spa"]},
-    {"name": "Morpheus8",    "keywords": ["morpheus"]},
-    {"name": "LHR",          "keywords": ["laser", "lhr", "hair removal"]},
-    {"name": "IUI",          "keywords": ["iui"]},
-    {"name": "IVF",          "keywords": ["ivf", "fertility", "camp"]},
-    {"name": "B1G1",         "keywords": ["b1g1", "women's day", "valentine", "bridal", "women's day"]},
-    {"name": "Aquatherapy",  "keywords": ["aquatherapy", "aqua", "water treadmill", "treadmill"]},
+    {"name": "Fotona 4D",         "keywords": ["fotona"]},
+    {"name": "Morpheus8",         "keywords": ["morpheus"]},
+    {"name": "Emsculpt Neo",      "keywords": ["emsculpt", "emscutpt", "neo", "hifem"]},
+    {"name": "Intimate Wellness", "keywords": ["intimate", "laxity", "dryness"]},
+    {"name": "GFC Hair Therapy",  "keywords": ["gfc", "hair therapy", "hair fall"]},
+    {"name": "Skin Booster",      "keywords": ["skin booster", "skinbooster"]},
+    {"name": "Emsella",           "keywords": ["emsella", "kegel"]},
+    {"name": "Baby Spa",          "keywords": ["baby", "spa"]},
+    {"name": "LHR",               "keywords": ["laser", "lhr", "hair removal"]},
+    {"name": "IUI",               "keywords": ["iui"]},
+    {"name": "IVF",               "keywords": ["ivf", "fertility", "camp"]},
+    {"name": "B1G1",              "keywords": ["b1g1", "women's day", "valentine", "bridal"]},
+    {"name": "Aquatherapy",       "keywords": ["aquatherapy", "aqua", "water treadmill", "treadmill"]},
 ]
 CAMPAIGN_ORDER = [c["name"] for c in CAMPAIGNS]
 SHEET_URL = "https://script.google.com/macros/s/AKfycbxqOBYfrlJfx_OM6HJgmsaOjewOIf29gHuRAO1CwSrHv-iOGvWXfGoa3wlQUmaWFb2v/exec"
@@ -99,8 +108,7 @@ def fetch_account_campaign_ids():
     while url:
         resp = requests.get(url, params=params).json()
         if "error" in resp:
-            print(f"  Account campaign fetch error: {resp['error']['message']}")
-            break
+            raise SystemExit(f"Meta API error (token expired?): {resp['error']['message']}")
         ids.update(c["id"] for c in resp.get("data", []))
         url, params = resp.get("paging", {}).get("next"), {}
     return ids
