@@ -437,26 +437,46 @@ function setConv(id,v){{if(!sheetData[id])sheetData[id]={{}};sheetData[id].conve
 function setAmt(id,v){{if(!sheetData[id])sheetData[id]={{}};sheetData[id].service_amount=v;syncToSheet(id);}}
 
 let syncTimer={{}};
+const LEAD_BY_ID=Object.fromEntries(ALL_LEADS.map(l=>[l.id,l]));
+const MONTH_TAB=/^[A-Z][a-z]{{2}} [0-9]{{4}}$/;
 function syncToSheet(id){{
   clearTimeout(syncTimer[id]);
-  syncTimer[id]=setTimeout(()=>{{
-    const d=sheetData[id]||{{}};
-    fetch(SHEET_URL+'?action=write'
-      +'&lead_id='+encodeURIComponent(id)
-      +'&remarks='+encodeURIComponent(d.remarks!==undefined?d.remarks:'')
-      +'&converted='+encodeURIComponent(d.converted||false)
-      +'&service_amount='+encodeURIComponent(d.service_amount!==undefined?d.service_amount:'')
-    ).catch(()=>{{}});
-  }},600);
+  syncTimer[id]=setTimeout(()=>writeRow(id),600);
+}}
+function writeRow(id){{
+  const d=sheetData[id]||{{}};
+  const l=LEAD_BY_ID[id]||{{}};
+  return fetch(SHEET_URL+'?action=write'
+    +'&lead_id='+encodeURIComponent(id)
+    +'&remarks='+encodeURIComponent(d.remarks!==undefined?d.remarks:'')
+    +'&converted='+encodeURIComponent(d.converted===true||d.converted==='true')
+    +'&service_amount='+encodeURIComponent(d.service_amount!==undefined?d.service_amount:'')
+    +'&month='+encodeURIComponent((l.date_ts||'').slice(0,7))
+    +'&date='+encodeURIComponent(l.date||'')
+    +'&campaign='+encodeURIComponent(l._treatment||'')
+    +'&name='+encodeURIComponent(l.Name||'')
+    +'&phone='+encodeURIComponent(l.Phone||'')
+  ).catch(()=>{{}});
+}}
+
+// One-time copy of old (pre-monthly) remarks into the month tabs. Only runs once the
+// monthly Apps Script is live (it returns a "tab" field); safe to run from many browsers.
+async function backfillMonthTabs(rows){{
+  const inMonthTab=new Set(rows.filter(r=>MONTH_TAB.test(r.tab||'')).map(r=>r.lead_id));
+  const todo=rows.filter(r=>r.tab&&!MONTH_TAB.test(r.tab)&&LEAD_BY_ID[r.lead_id]&&!inMonthTab.has(r.lead_id)
+    &&(String(r.remarks||'').trim()||r.converted===true||r.converted==='true'||(r.service_amount&&String(r.service_amount)!=='0')));
+  for(const r of todo){{await writeRow(r.lead_id);}}
 }}
 
 async function loadFromSheet(){{
+  let rows=[];
   try{{
     const r=await fetch(SHEET_URL+'?action=read');
-    const rows=await r.json();
-    rows.forEach(row=>{{sheetData[row.lead_id]={{remarks:row.remarks,converted:row.converted,service_amount:row.service_amount}};}} );
+    rows=(await r.json()).map(x=>({{...x,lead_id:String(x.lead_id)}}));
+    rows.forEach(row=>{{sheetData[row.lead_id]={{remarks:row.remarks,converted:row.converted,service_amount:row.service_amount}};}});
   }}catch(e){{console.warn('Sheet sync failed',e);}}
   render();
+  if(rows.length)backfillMonthTabs(rows);
 }}
 
 function getActiveCampaigns(month){{
