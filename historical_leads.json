@@ -1,5 +1,61 @@
 [
   {
+    "id": "1453442446384707",
+    "date": "26 Nov 2026, 10:44 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062572140425",
+    "What would you like to improve?": "Sagging skin / jowls",
+    "Which area do you live in?": "HSR Layout",
+    "When would you like to start?": "This week",
+    "Fotona 4D is a premium treatment, costed by the doctor at consultation. Open to that?": "Yes, I'm ready to invest in treatment",
+    "Name": "Jayalakshmi Padhi",
+    "Phone": "+918884979229",
+    "_form_name": "Fotona 4D - Nov 2026-OTP",
+    "_treatment": "Fotona 4D"
+  },
+  {
+    "id": "1925926325438534",
+    "date": "26 Nov 2026, 09:38 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062572140425",
+    "Which area do you live in?": "Other area",
+    "When would you like to start?": "Just exploring for now",
+    "Phone": "+919901045905",
+    "Fotona 4D is a premium treatment, costed by the doctor at consultation. Open to that?": "No, I'm only looking for free options",
+    "Name": "Dipjyoti Deka",
+    "What would you like to improve?": "Sagging skin / jowls",
+    "_form_name": "Fotona 4D - Nov 2026-OTP",
+    "_treatment": "Fotona 4D"
+  },
+  {
+    "id": "1150623781160028",
+    "date": "26 Nov 2026, 07:53 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062572140425",
+    "What would you like to improve?": "Sagging skin / jowls",
+    "Which area do you live in?": "Other area",
+    "When would you like to start?": "This week",
+    "Fotona 4D is a premium treatment, costed by the doctor at consultation. Open to that?": "I'd like to understand costs first",
+    "Name": "Sheela",
+    "Phone": "+919008542737",
+    "_form_name": "Fotona 4D - Nov 2026-OTP",
+    "_treatment": "Fotona 4D"
+  },
+  {
+    "id": "1556866659809987",
+    "date": "26 Nov 2026, 07:30 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062572140425",
+    "Which area do you live in?": "Other area",
+    "Fotona 4D is a premium treatment, costed by the doctor at consultation. Open to that?": "I'd like to understand costs first",
+    "Name": "Lalitha Shakthi Achari",
+    "When would you like to start?": "Just exploring for now",
+    "Phone": "+918310368003",
+    "What would you like to improve?": "Sagging skin / jowls",
+    "_form_name": "Fotona 4D - Nov 2026-OTP",
+    "_treatment": "Fotona 4D"
+  },
+  {
     "id": "1455200642863571",
     "date": "26 Nov 2026, 02:17 PM",
     "date_ts": "2026-11-26",
@@ -840,6 +896,20 @@
     "_treatment": "Fotona 4D"
   },
   {
+    "id": "1477783724553772",
+    "date": "27 Nov 2026, 12:58 AM",
+    "date_ts": "2026-11-27",
+    "_campaign_id": "120252062572480425",
+    "How long have you noticed more hair fall?": "More than a year",
+    "Which area do you live in?": "Other area",
+    "When would you like to start?": "This week",
+    "GFC usually needs 3-4 sessions a few weeks apart. Can you commit to that?": "Yes",
+    "Name": "grithika ga",
+    "Phone": "+917975909447",
+    "_form_name": "GFC Hair Therapy - Nov 2026-OTP",
+    "_treatment": "GFC Hair Therapy"
+  },
+  {
     "id": "1089829480775334",
     "date": "25 Nov 2026, 09:30 PM",
     "date_ts": "2026-11-25",
@@ -1090,6 +1160,34 @@
     "Phone": "+919900132781",
     "_form_name": "GFC Hair Therapy - Nov 2026-OTP",
     "_treatment": "GFC Hair Therapy"
+  },
+  {
+    "id": "1492161912828146",
+    "date": "27 Nov 2026, 12:44 AM",
+    "date_ts": "2026-11-27",
+    "_campaign_id": "120252062573000425",
+    "Name": "Deepika Mangal Rajpurohit",
+    "Phone": "+919663614238",
+    "What would you like to treat?": "Acne scars and texture",
+    "Which area do you live in?": "Indiranagar / Domlur",
+    "When would you like to start?": "Within this month",
+    "Morpheus8 packages start at ₹11,999. Does that work for you?": "I'd like to discuss options",
+    "_form_name": "Morpheus8 - Nov 2026-OTP",
+    "_treatment": "Morpheus8"
+  },
+  {
+    "id": "1700124325068949",
+    "date": "26 Nov 2026, 11:32 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062573000425",
+    "What would you like to treat?": "Acne scars and texture",
+    "Which area do you live in?": "Koramangala",
+    "When would you like to start?": "Within this month",
+    "Morpheus8 packages start at ₹11,999. Does that work for you?": "I'd like to discuss options",
+    "Name": "Vijji Vijendraw",
+    "Phone": "+919035851742",
+    "_form_name": "Morpheus8 - Nov 2026-OTP",
+    "_treatment": "Morpheus8"
   },
   {
     "id": "1522292173138783",
@@ -1764,6 +1862,20 @@
     "_treatment": "Skin Booster"
   },
   {
+    "id": "1114742434893188",
+    "date": "26 Nov 2026, 06:53 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062573430425",
+    "What would you like to discuss with our gynaecologist?": "I'd prefer to discuss in person",
+    "Which area do you live in?": "Koramangala",
+    "When would you like to start?": "Just exploring for now",
+    "Packages start at ₹7,999. Does that work for you?": "I'd like to discuss options",
+    "Name": "Sneha Ramanath",
+    "Phone": "+919740799776",
+    "_form_name": "Intimate Wellness - Nov 2026-OTP",
+    "_treatment": "Intimate Wellness"
+  },
+  {
     "id": "1459931749676989",
     "date": "24 Nov 2026, 10:21 AM",
     "date_ts": "2026-11-24",
@@ -2098,6 +2210,34 @@
     "Phone": "+919900329043",
     "_form_name": "Intimate Dryness - Nov 2026-OTP",
     "_treatment": "Intimate Wellness"
+  },
+  {
+    "id": "1563218902530365",
+    "date": "26 Nov 2026, 10:03 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062571750425",
+    "What's your main goal?": "Reduce stubborn belly fat",
+    "Which area do you live in?": "Bellandur / Haralur",
+    "When would you like to start?": "This week",
+    "Emsculpt Neo packages start at ₹24,999. Does that work for you?": "I'd like to discuss options",
+    "Name": "Vaani",
+    "Phone": "+916363712195",
+    "_form_name": "Emsculpt Neo - Nov 2026- OTP",
+    "_treatment": "Emsculpt Neo"
+  },
+  {
+    "id": "978001858394005",
+    "date": "26 Nov 2026, 08:33 PM",
+    "date_ts": "2026-11-26",
+    "_campaign_id": "120252062571750425",
+    "What's your main goal?": "Reduce stubborn belly fat",
+    "Which area do you live in?": "Jayanagar",
+    "When would you like to start?": "This week",
+    "Emsculpt Neo packages start at ₹24,999. Does that work for you?": "I'd like to discuss options",
+    "Name": "Arjun",
+    "Phone": "+919845834357",
+    "_form_name": "Emsculpt Neo - Nov 2026- OTP",
+    "_treatment": "Emsculpt Neo"
   },
   {
     "id": "1464170558395358",
